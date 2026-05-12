@@ -1,0 +1,15 @@
+---
+title: "Adecuaciones Del Modelo Sindical A 45 Años Del Plan Laboral. Condiciones Organizativas Y Estratégicas Para Una Negociación Ramal En Chile"
+date: "2026-01-01"
+author: "Gonzalo Ignacio Duran Sanhueza"
+departamento: "Trabajo Social"
+coinvestigadores: "Paula Francisca Vidal Molina"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1261806"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

@@ -1,0 +1,14 @@
+---
+title: "Tiempo Y Memoria Disciplinar: Producción De Conocimiento Del Trabajo Social Chileno En Tres Claves Temporales (1925-2025)"
+date: "2026-01-01"
+author: "Maria Gabriela Rubilar Donoso"
+departamento: "Trabajo Social"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1261123"
+fecha_inicio: "2026"
+fecha_termino: "2030"
+duracion: "48 meses"
+about:
+  template: marquee
+---

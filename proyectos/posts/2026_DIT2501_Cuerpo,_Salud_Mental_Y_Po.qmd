@@ -1,0 +1,14 @@
+---
+title: "Cuerpo, Salud Mental Y Políticas Públicas En Atención Primaria En Salud"
+date: "2026-01-01"
+author: "Michele Dufey Dominguez"
+departamento: "Psicología"
+categories: ["Proyecto de Investigación"]
+concurso: "Dispositivos Para La Promoción Del Quehacer Interdisciplinario Y Transdisciplinario (Dit)"
+codigo_proyecto: "DIT2501"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "12 meses"
+about:
+  template: marquee
+---

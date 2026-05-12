@@ -1,0 +1,14 @@
+---
+title: "Mirarnos Y Escucharnos: Dos Sentidos, Aún"
+date: "2025-01-01"
+author: "Danilo Esteban Sanhueza Ordenes"
+departamento: "Psicología"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Creart"
+codigo_proyecto: "CA09/24"
+fecha_inicio: "2025"
+fecha_termino: "2026"
+duracion: "12 meses"
+about:
+  template: marquee
+---

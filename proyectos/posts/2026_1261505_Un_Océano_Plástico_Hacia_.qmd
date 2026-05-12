@@ -1,0 +1,14 @@
+---
+title: "Un Océano Plástico: Hacia Una Antropología De La Polución Marina En El Antropoceno"
+date: "2026-01-01"
+author: "Francisco Javier Araos Leiva"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1261505"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

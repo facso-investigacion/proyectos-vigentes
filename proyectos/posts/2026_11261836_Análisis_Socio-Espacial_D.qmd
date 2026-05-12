@@ -1,0 +1,14 @@
+---
+title: "Análisis Socio-Espacial De Conflictos Por Vivienda. Nuevo Ciclo De Poblamiento Informal En Chile"
+date: "2026-01-01"
+author: "Valentina Paz Abufhele Milad"
+departamento: "Trabajo Social"
+categories: ["Fondecyt Iniciación"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11261836"
+fecha_inicio: "2026"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

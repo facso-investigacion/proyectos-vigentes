@@ -1,0 +1,14 @@
+---
+title: "El Profesionalismo Pedagógico De La Sala Cuna: Un Modelo Situacional Del Caso Chileno En Perspectiva Comparada"
+date: "2026-01-01"
+author: "Cynthia Yael Adlerstein Grimberg"
+departamento: "Educación"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1262125"
+fecha_inicio: "2026"
+fecha_termino: "2030"
+duracion: "48 meses"
+about:
+  template: marquee
+---

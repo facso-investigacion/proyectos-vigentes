@@ -1,0 +1,155 @@
+/* =============================================================
+   proyectos-listing.css
+   ============================================================= */
+   
+   
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* --- Grid contenedor ---------------------------------------- */
+.proyectos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.5rem;
+}
+
+/* --- Tarjeta ------------------------------------------------- */
+.proyecto-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1rem 1.5rem;
+  background: #fff;
+  border-bottom: 1px solid  #dee2e6;
+  border-left: 4px solid  #f25e63;
+  padding: 1.25rem 1.25rem;
+  transition: background 0.15s ease;
+}
+
+.proyecto-card:first-child {
+  border-top: 1px solid  #dee2e6;
+}
+
+.proyecto-card:hover {
+  background: #f8f9fa;
+}
+
+/* --- Columna izquierda: autor ------------------------------- */
+.proyecto-autor {
+  padding-top: 0.1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.proyecto-autor .listing-author {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color:  #212529;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+/* --- Columna derecha: información --------------------------- */
+.proyecto-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+/* Título */
+.proyecto-titulo {
+  font-size: 0.97rem;
+  font-weight: 600;
+  color:  #212529;
+  text-decoration: none;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.proyecto-titulo:hover {
+  color:  #f25e63; !important;
+  text-decoration: underline;
+}
+
+/* Filas de metadata */
+.proyecto-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem;
+  font-size: 0.84rem;
+  color: #6c757d;
+}
+
+.meta-label {
+  font-weight: 600;
+  color:  #6c757d;
+  font-size: 0.84rem;
+  flex-shrink: 0;
+}
+
+.listing-departamento {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.listing-coinvestigadores {
+  color: #212529;
+}
+
+/* Link al abstract */
+.proyecto-abstract-link {
+  margin-top: 0.35rem;
+}
+
+.proyecto-abstract-link a {
+  font-size: 0.82rem;
+  color: #f25e63;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid  #f25e63;
+  border-radius: 4px;
+  padding: 0.18rem 0.5rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.proyecto-abstract-link a:hover {
+  background: #f25e63;
+  color: #fff;
+}
+
+.proyecto-header {
+  display: grid;
+  grid-template-columns: 220px 1fr;  /* mismo grid que las tarjetas */
+  padding: 0.5rem 1.25rem;
+  background: color-mix(...8% primary...);
+  border-bottom: 2px solid #f25e63;
+  border-left: 4px solid #f25e63;
+  gap: 1rem 1.5rem;
+}
+
+.proyecto-header-col {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #f25e63;
+}
+
+/* --- Responsivo --------------------------------------------- */
+@media (max-width: 640px) {
+  .proyecto-card {
+    grid-template-columns: 1fr;
+  }
+
+  .proyecto-autor {
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 0.6rem;
+  }
+}
+
+

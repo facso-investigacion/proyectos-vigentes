@@ -1,0 +1,19 @@
+---
+title: "¿Qué Hace Que Una Intervención De Salud Mental Escolar Funcione?: Estudio De Sus ¿Componentes Centrales¿ Mediante Una Aproximación Metodológica Mixta"
+date: "2023-01-01"
+author: "Loreto Evelyn Leiva Bahamondes"
+departamento: "Psicología"
+categories: ["Fondecyt Regular"]
+keywords: ["COMPONENTES CENTRALESSALUD MENTAL ESCOLARINTERVENCIONES PREVENTIVAS DE SALUD MENTAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231506"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b2b205c6d2f94af5228d87954e3dd84f"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b2b205c6d2f94af5228d87954e3dd84f
+---

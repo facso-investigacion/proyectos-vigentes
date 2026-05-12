@@ -1,0 +1,14 @@
+---
+title: "Fortaleciendo Redes De Cuidados: Guía Para Líderes/As Comunitarios/As"
+date: "2026-01-01"
+author: "Catalina Arteaga Aguirre"
+departamento: "Sociología"
+categories: ["Proyecto de Investigación"]
+concurso: "Dispositivos Para La Promoción Del Quehacer Interdisciplinario Y Transdisciplinario (Dit)"
+codigo_proyecto: "DIT2506"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "12 meses"
+about:
+  template: marquee
+---

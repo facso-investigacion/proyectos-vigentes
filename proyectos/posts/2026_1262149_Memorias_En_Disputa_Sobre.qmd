@@ -1,0 +1,15 @@
+---
+title: "Memorias En Disputa Sobre El Levantamiento Social Del 2019 En Chile Y Los Sentidos Que Construyen En Torno A Los Ddhh"
+date: "2026-01-01"
+author: "Isabel Piper Shafir"
+departamento: "Psicología"
+coinvestigadores: "Caterine Joanna Galaz Valderrama"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1262149"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

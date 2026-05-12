@@ -1,0 +1,19 @@
+---
+title: "Entre Femineidad Y Feminismo. Indagando En Las Tensiones Corporeizadas De Activistas Feministas En Chile"
+date: "2025-01-01"
+author: "Javiera Andrea Cubillos Almendra"
+departamento: "Trabajo Social"
+categories: ["Fondecyt Iniciación"]
+keywords: ["ETICA Y POLITICA FEMINISTA| CORPORALIDADES Y EMOCIONES| INTERSECCIONALIDAD"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11251033"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.conicyt.cl/frontend.php/version/6654f3d8d568df6b7329b78b/download/adjuntos?archivo=[bcc49139-bde4-47de-a3f0-31e6fece6789]ResumenIniEsp.pdf"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.conicyt.cl/frontend.php/version/6654f3d8d568df6b7329b78b/download/adjuntos?archivo=[bcc49139-bde4-47de-a3f0-31e6fece6789]ResumenIniEsp.pdf
+---

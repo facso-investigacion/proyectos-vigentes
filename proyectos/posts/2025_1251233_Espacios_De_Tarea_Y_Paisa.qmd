@@ -1,0 +1,19 @@
+---
+title: "Espacios De Tarea Y Paisajes Históricos Entre Los Grupos Cazadores-Recolectores-Pescadores De Los Valles De Elqui Y Limarí (29°-30°S, Ca. 12.000 A 1.200 Cal. A.p.)"
+date: "2025-01-01"
+author: "Andres Rolando Troncoso Melendez"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+keywords: ["CAZADORES-RECOLECTORES-PESCADORES| PAISAJES HISTORICOS| NORTE SEMIARIDO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251233"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4babf16fa84e459ecd9d6c31fc5f2a0b"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4babf16fa84e459ecd9d6c31fc5f2a0b
+---

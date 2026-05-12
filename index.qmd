@@ -1,0 +1,44 @@
+---
+title: "Proyectos Vigentes FACSO"
+listing:
+  id: proyectos-list
+  contents: "proyectos/posts/*.qmd"
+  template: proyectos-listing.ejs.md
+  page-size: 9999
+  sort: "date desc"
+  sort-ui:
+    - title
+    - date
+    - departamento
+    - concurso
+  filter-ui:
+    - title
+    - author
+    - departamento
+    - concurso
+    - coinvestigadores
+  fields:
+    - title
+    - author
+    - date
+    - concurso
+    - departamento
+    - coinvestigadores
+    - url_abstract
+  field-types:
+    date: date
+  field-display-names:
+    title: "Título"
+    author: "Investigador/a responsable"
+    date: "Año"
+    concurso: "Concurso"
+    departamento: "Departamento"
+    coinvestigadores: "Co-investigadores FACSO"
+format:
+  html:
+    css: proyectos-listing.css
+---
+
+::: {#proyectos-list}
+:::
+

@@ -1,0 +1,14 @@
+---
+title: "Fortaleciendo Redes De Cuidados: Guía Para Líderes/As Comunitarios/As"
+date: "2025-01-01"
+author: "Catalina Arteaga Aguirre"
+departamento: "Sociología"
+categories: ["Proyecto de Investigación"]
+concurso: "Redes, Núcleo E Iniciativas De Colaboración Académica De Carácter Transdisciplinario (Rnit)"
+codigo_proyecto: "DE1025"
+fecha_inicio: "2025"
+fecha_termino: "2026"
+duracion: "12 meses"
+about:
+  template: marquee
+---
