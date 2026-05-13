@@ -34,7 +34,15 @@ pacman::p_load(RefManageR, dplyr, stringr, stringi, tidyr)
 proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
 
   # Crear carpeta de salida si no existe
-  if (!dir.exists(outfold)) dir.create(outfold, recursive = TRUE)
+  if (dir.exists(outfold)) {
+    qmds_anteriores <- list.files(outfold, pattern = "\\.qmd$", full.names = TRUE)
+    if (length(qmds_anteriores) > 0) {
+      file.remove(qmds_anteriores)
+      cat("Eliminados", length(qmds_anteriores), ".qmd anteriores\n")
+    }
+  } else {
+    dir.create(outfold, recursive = TRUE)
+  }
 
 
   # ---- Función auxiliar: invertir nombres (Nombre Apellido → Apellido, Nombre) ----
