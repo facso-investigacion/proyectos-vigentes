@@ -1,0 +1,19 @@
+---
+title: "Advancing Our Understanding Of Mesotheriid Feeding Ecology"
+date: "2024-01-01"
+author: "Kornelius Florian Kupczik"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+keywords: ["PALEOECOLOGY FEEDING MECHANICS TOOTH WEAR"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240805"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a613e80ae824379aeabde61ee0f70edf"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a613e80ae824379aeabde61ee0f70edf
+---

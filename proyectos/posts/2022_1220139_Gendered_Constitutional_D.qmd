@@ -1,0 +1,16 @@
+---
+title: "Gendered Constitutional Debates And Paradoxical Citizenships In Chile 20th-21st Centuries"
+date: "2022-01-01"
+author: "Hillary Carroll Hiner"
+departamento: "Trabajo Social"
+categories: ["Proyecto de Investigación"]
+concurso: "Fondecyt"
+codigo_proyecto: "1220139"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/46723e9458b46fa3821558c198810883"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/46723e9458b46fa3821558c198810883
+---

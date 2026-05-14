@@ -1,0 +1,20 @@
+---
+title: "La Articulación De Las Prescripciones Emocionales, Las Condiciones Laborales Y Los Sentidos Profesionales En El Trabajo Emocional Cotidiano Que Realizan Docentes En Escuelas Públicas Vulnerables. Un Estudio Cualitativo Complejo Multi Componencial"
+date: "2024-01-01"
+author: "Rodrigo Carlos Cornejo Chavez"
+departamento: "Psicología"
+coinvestigadores: "Christian Esteban Miranda Jana & Jesus Maria Redondo Rojo"
+categories: ["Fondecyt Regular"]
+keywords: ["TRABAJO DOCENTE TRABAJO EMOCIONAL ETNOGRAFIA DEL TRABAJO DOCENTE"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240155"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/867d44fcd5c60745f2fd76ad0e738d65"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/867d44fcd5c60745f2fd76ad0e738d65
+---

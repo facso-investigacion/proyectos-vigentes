@@ -1,0 +1,20 @@
+---
+title: "Terapia De Exposición Maximizada Para El Tratamiento Y Prevención De Recaídas En Trastornos De Ansiedad: Un Ensayo Clínico Aleatorio Longitudinal"
+date: "2025-01-01"
+author: "Vanetza Estela Quezada Scholz"
+departamento: "Psicología"
+coinvestigadores: "Gonzalo Javier Miguez Cavieres, Loreto Evelyn Leiva Bahamondes & Mario Arturo Laborda Rojas"
+categories: ["Fondecyt Regular"]
+keywords: ["EFICACIA| TERAPIA DE EXPOSICION OPTIMIZADA| TRASTORNOS DE ANSIEDAD"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251388"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4ecbfac6affe0598fcc08098a1d00920"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4ecbfac6affe0598fcc08098a1d00920
+---

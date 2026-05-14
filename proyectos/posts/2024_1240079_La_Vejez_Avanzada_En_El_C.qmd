@@ -1,0 +1,20 @@
+---
+title: "La Vejez Avanzada En El Curso De La Vida. Estudio Sobre Trayectorias De Cuidados De Personas Mayores En Chile"
+date: "2024-01-01"
+author: "Paulina Isabel Osorio Parraguez"
+departamento: "Antropología"
+coinvestigadores: "Catalina Arteaga Aguirre & Maria Sol Anigstein"
+categories: ["Fondecyt Regular"]
+keywords: ["TRAYECTORIAS DE CUIDADOS CUARTA EDAD ENVEJECIMIENTO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240079"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/e4b6506127dcfd4f862dfbb6afaa9e78"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/e4b6506127dcfd4f862dfbb6afaa9e78
+---

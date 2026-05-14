@@ -1,0 +1,20 @@
+---
+title: "Estudio Sobre Las Prácticas Pedagógicas Para La Inclusión De Educadoras Y Educadores De Párvulos En Contextos De Jardines Infantiles. Exploración En El Nivel Sala Cuna Y Medio Menor"
+date: "2024-01-01"
+author: "Daniela Olivia Puentes Chavez"
+departamento: "Educación"
+coinvestigadores: "Valeria Modesta Herrera Fernandez"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["PRACTICA PEDAGOGICA INCLUSION EDUCACION INICIAL"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3240198"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/43495ed5c4c3619568b30208e15ad9d2"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/43495ed5c4c3619568b30208e15ad9d2
+---

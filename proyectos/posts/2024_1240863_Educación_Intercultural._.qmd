@@ -1,0 +1,20 @@
+---
+title: "Educación Intercultural. Identificación Y Puesta En Valor Del Patrimonio Cultural Inmaterial \"Translocal\" Portado A Las Escuelas Por La Migración De Niños, Niñas Y Familias De Las Regiones De Antofagasta, Metropolitana Y Del Bío-Bío"
+date: "2024-01-01"
+author: "Susan Valeria Sanhueza Henriquez"
+departamento: "Educación"
+coinvestigadores: "Carolina Vivian Aroca Toloza, Fabiola Valeska Maldonado Garcia & Marisol Yazmin Ximena Facuse Munoz"
+categories: ["Fondecyt Regular"]
+keywords: ["EDUCACION INTERCULTURAL PATRIMONIO CULTURAL INMATERIAL MIGRACION"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240863"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/5fddf4a0bdba02ecbdac51563cedd911"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/5fddf4a0bdba02ecbdac51563cedd911
+---

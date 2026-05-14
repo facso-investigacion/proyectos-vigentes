@@ -1,0 +1,20 @@
+---
+title: "Lidiar Con La Implementación De Programas Sociales En Territorios Extremadamente Críticos: Capacidades De Agencia De Las/Os Implementadores Bajo Una Institucionalidad Débil"
+date: "2024-01-01"
+author: "Gianinna Ines Munoz Arce"
+departamento: "Trabajo Social"
+coinvestigadores: "Tal Reininger Pollak"
+categories: ["Fondecyt Regular"]
+keywords: ["IMPLEMENTADORES/AS DE PROGRAMAS SOCIALES CAPACIDADES DE AGENCIA TERRITORIOS 'CRITICOS'"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240100"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b64a457e4c60bc34826b88e6e511969a"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b64a457e4c60bc34826b88e6e511969a
+---

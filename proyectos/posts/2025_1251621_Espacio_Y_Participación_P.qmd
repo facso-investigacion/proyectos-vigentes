@@ -1,0 +1,20 @@
+---
+title: "Espacio Y Participación Política En Jóvenes De Barrios Populares En Chile"
+date: "2025-01-01"
+author: "Nicolas Salvador Gregorio Angelcos Gutierrez"
+departamento: "Sociología"
+coinvestigadores: "Daniel Andres Miranda Fuenzalida & Valentina Paz Abufhele Milad"
+categories: ["Fondecyt Regular"]
+keywords: ["ESPACIO| PARTICIPACION POLITICA| JOVENES"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251621"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/00c2ad11afb6c1594d3a3929705ee4b1"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/00c2ad11afb6c1594d3a3929705ee4b1
+---

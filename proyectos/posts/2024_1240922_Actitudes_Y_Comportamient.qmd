@@ -1,0 +1,20 @@
+---
+title: "Actitudes Y Comportamiento Político Juvenil: Desigualdad, Estilos De Socialización Escolar E Influencias Intergeneracionales"
+date: "2024-01-01"
+author: "Daniel Andres Miranda Fuenzalida"
+departamento: "Psicología"
+coinvestigadores: "Nicolas Salvador Gregorio Angelcos Gutierrez"
+categories: ["Fondecyt Regular"]
+keywords: ["SOCIALIZACION POLITICA PARTICIPACION POLITICA JUVENIL DESIGUALDAD POLITICA"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240922"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/336f623173392a366873dcd64a8c7f98"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/336f623173392a366873dcd64a8c7f98
+---

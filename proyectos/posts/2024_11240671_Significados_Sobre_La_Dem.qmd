@@ -1,0 +1,19 @@
+---
+title: "Significados Sobre La Democracia En Estudiantes De Pedagogía Con Compromiso Político. Orientaciones De Sentido A Partir De Sus Recorridos Biográficos"
+date: "2024-01-01"
+author: "Marcela Eliana Betancourt Saez"
+departamento: "Educación"
+categories: ["Fondecyt Iniciación"]
+keywords: ["SIGNIFICADOS SOBRE LA DEMOCRACIA EN ESTUDIANTES DE PEDAGOGIA FORMACION INICIAL DOCENTE RECORRIDOS BIOGRAFICOS"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11240671"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/304e6c1a46b0106dcb9aab4aee832c58"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/304e6c1a46b0106dcb9aab4aee832c58
+---
