@@ -12,6 +12,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+     contents: write
 
     steps:
       # 1. Clonar el repositorio
