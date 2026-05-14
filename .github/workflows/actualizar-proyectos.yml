@@ -47,7 +47,7 @@ jobs:
 
       # 6. proyectos2quarto.R → proyectos/posts/*.qmd
       - name: Paso 3 - Generar QMDs (bib → qmd)
-        run: Rscript proyectos2quarto.R
+        run: Rscript proyectos/proyectos2quarto.R
 
       # 7. Instalar Quarto
       - name: Instalar Quarto
