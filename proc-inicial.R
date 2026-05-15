@@ -7,7 +7,8 @@ library(haven)
 
 
 data_proyectos <- data_proyectos |>
-  mutate(across(where(is.labelled), as_factor))
+  mutate(across(where(is.labelled), as_factor)) |> 
+  filter(codigo_proyecto != "1220139")
 
 proyectos_vigentes <- data_proyectos |> 
   filter(en_ejecucion == "Sí" & institucion != "FACSO" & investigador_responsable != "Externo")

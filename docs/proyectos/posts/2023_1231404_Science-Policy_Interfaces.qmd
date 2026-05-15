@@ -1,0 +1,20 @@
+---
+title: "Science-Policy Interfaces And Scenario Construction In Chile: How To Better Bridge Scientific Evidence With Policy-Making? An Inter-Transdisciplinary Challenge For Environmental Complex Problems"
+date: "2023-01-01"
+author: "Anahi Veronica Josefina Urquiza Gomez"
+departamento: "Trabajo Social"
+coinvestigadores: "Gabriela Alejandra Azocar De La Cruz"
+categories: ["Fondecyt Regular"]
+keywords: ["ACTIONABLE KNOWLEDGEDECISION-MAKING UNDER DEEP UNCERTAINTYINTERDISCIPLINARY MODELING"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231404"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/9c8d984af1c94cad73c3aeab06795898"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/9c8d984af1c94cad73c3aeab06795898
+---

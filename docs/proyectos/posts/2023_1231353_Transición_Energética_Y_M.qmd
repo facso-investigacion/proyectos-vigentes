@@ -1,0 +1,19 @@
+---
+title: "Transición Energética Y Minerales Críticos: Tensiones Por Futuros Socio-Ecológicos Divergentes"
+date: "2023-01-01"
+author: "Fernando Andres Campos Medina"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+keywords: ["TRANSICION ENERGETICA Y MINERALES CRITICOSCONFLICTIVIDAD SOCIO-TERRITORIALFUTUROS SOCIO-ECOLOGICOS ALTERNATIVOS"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231353"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/70d641cd67b26a655526a16297173a0d"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/70d641cd67b26a655526a16297173a0d
+---

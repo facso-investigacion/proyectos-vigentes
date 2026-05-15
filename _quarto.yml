@@ -5,11 +5,14 @@ project:
     - "*.qmd"
 
 website:
-  title: "Proyectos Vigentes FACSO"
+  title: "Proyectos de Investigación Vigentes -- Facultad de Ciencias Sociales"
+  navbar:
+    background: "#212121"
 
 format:
   html:
     mainfont: "Montserrat" 
+    css: proyectos-listing.css
 
 execute:
   freeze: auto

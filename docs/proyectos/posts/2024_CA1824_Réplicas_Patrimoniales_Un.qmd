@@ -1,0 +1,14 @@
+---
+title: "Réplicas Patrimoniales: Un Medio De Interpretación Conjunta En Territorio Mapuche (Gülumapu)"
+date: "2025-01-01"
+author: "Daniella Jofre Poblete"
+departamento: "Antropología"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Creart"
+codigo_proyecto: "CA18/24"
+fecha_inicio: "2025"
+fecha_termino: "2026"
+duracion: "12 meses"
+about:
+  template: marquee
+---

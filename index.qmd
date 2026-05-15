@@ -1,14 +1,14 @@
 ---
-title: "Proyectos Vigentes FACSO"
+title: "Proyectos de Investigación Vigentes"
 listing:
   id: proyectos-list
   contents: "proyectos/posts/*.qmd"
   template: proyectos-listing.ejs.md
   page-size: 9999
-  sort: "date desc"
+  sort: "fecha_inicio desc"
   sort-ui:
-    - title
-    - date
+    - author
+    - fecha_inicio
     - departamento
     - concurso
   filter-ui:
@@ -17,28 +17,34 @@ listing:
     - departamento
     - concurso
     - coinvestigadores
+    - fecha_inicio
+    - fecha_termino
   fields:
     - title
     - author
-    - date
+    - fecha_inicio
+    - fecha_termino
     - concurso
     - departamento
     - coinvestigadores
     - url_abstract
-  field-types:
-    date: date
   field-display-names:
     title: "Título"
     author: "Investigador/a responsable"
-    date: "Año"
+    fecha_inicio: "Año inicio"
+    fecha_termino: "Año término"
     concurso: "Concurso"
     departamento: "Departamento"
     coinvestigadores: "Co-investigadores FACSO"
 format:
   html:
     css: proyectos-listing.css
+    include-after-body:
+      text: |
+        <script src="proyectos-sort.js"></script>
 ---
+
+En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. 
 
 ::: {#proyectos-list}
 :::
-

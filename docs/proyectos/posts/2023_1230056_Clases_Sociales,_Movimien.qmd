@@ -1,0 +1,19 @@
+---
+title: "Clases Sociales, Movimientos Sindicales Y Conflicto En Tiempos De Crisis: Un Estudio Comparativo De Argentina Y Chile"
+date: "2023-01-01"
+author: "Pablo Alonso Perez Ahumada"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+keywords: ["CLASES SOCIALES SINDICATOS Y RELACIONES LABORALES CONFLICTO SOCIAL Y POLITICO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1230056"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a02caceaa338e9b3d09ec8112e76f640"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a02caceaa338e9b3d09ec8112e76f640
+---

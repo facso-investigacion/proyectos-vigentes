@@ -1,0 +1,19 @@
+---
+title: "Riesgos Y Beneficios En La Investigación Social. Concepciones Y Prácticas De Sociólogos(As) Y Comités De Ética De La Investigación"
+date: "2025-01-01"
+author: "Marcela Patricia Ferrer Lues"
+departamento: "Sociología"
+categories: ["Fondecyt Iniciación"]
+keywords: ["ETICA DE LA INVESTIGACION EN CIENCIAS SOCIALES| RIESGOS Y BENEFICIOS DE LA INVESTIGACION SOCIAL| COMITES DE ETICA DE LA INVESTIGACION"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11251909"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.conicyt.cl/frontend.php/version/6654e9b6d568df6c6129b78c/download/adjuntos?archivo=[0689877b-ae84-402b-bc72-04058ef5b3bf]ResumenIniEsp.pdf"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.conicyt.cl/frontend.php/version/6654e9b6d568df6c6129b78c/download/adjuntos?archivo=[0689877b-ae84-402b-bc72-04058ef5b3bf]ResumenIniEsp.pdf
+---

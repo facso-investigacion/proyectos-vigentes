@@ -1,0 +1,20 @@
+---
+title: "Trayectorias Educativas De Estudiantes Migrantes Que Cursan Estudios En Universidades Del Consejo De Rectores De Universidades Chilenas (Cruch) Situadas En La Región Metropolitana"
+date: "2024-01-01"
+author: "Claudia Marcela Carrillo Sanchez"
+departamento: "Educación"
+coinvestigadores: "Susan Valeria Sanhueza Henriquez"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["TRAYECTORIAS EDUCATIVAS MIGRACION EDUCACION SUPERIOR"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3240618"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/106949462bf7e5edb7dffd4707e86254"
+about:
+  template: marquee
+  links:
+    - icon: file-text
+      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/106949462bf7e5edb7dffd4707e86254
+---

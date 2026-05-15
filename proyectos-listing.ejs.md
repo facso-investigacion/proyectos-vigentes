@@ -1,10 +1,16 @@
 ```{=html}
 <div class="proyectos-grid list">
 
-<!-- Encabezados de columna -->
+<!-- Encabezados clicables para ordenar -->
 <div class="proyecto-header">
-  <div class="proyecto-header-col">Investigador/a Responsable</div>
-  <div class="proyecto-header-col">Proyecto</div>
+  <button type="button" class="proyecto-header-col sort-button" data-sort-target="author">
+    Investigador/a Responsable
+    <span class="sort-indicator"></span>
+  </button>
+  <button type="button" class="proyecto-header-col sort-button" data-sort-target="fecha_inicio">
+    Proyecto
+    <span class="sort-indicator"></span>
+  </button>
 </div>
 
 <% for (const item of items) { %>
@@ -24,22 +30,21 @@
       <%= item.title %>
     </a>
 
-    <!-- Año y concurso -->
-    
-    
-      <% if (item.date) { %>
-      <div class="proyecto-meta">
-      <span class="listing departamento"><%= new Date(item.date).getFullYear() %></span>
-      </div>
-      <% } %>
-      
-      
-      <% if (item.concurso) { %>
-      <div class="proyecto-meta">
+    <!-- Año (inicio-término) -->
+    <% if (item.fecha_inicio || item.fecha_termino) { %>
+    <div class="proyecto-meta">
+      <span class="listing departamento">
+        <%= item.fecha_inicio || "?" %> - <%= item.fecha_termino || "?" %>
+      </span>
+    </div>
+    <% } %>
+
+    <!-- Concurso -->
+    <% if (item.concurso) { %>
+    <div class="proyecto-meta">
       <span class="listing departamento"><%= item.concurso %></span>
-      </div>
-      <% } %>
-    
+    </div>
+    <% } %>
 
     <!-- Departamento -->
     <% if (item.departamento) { %>
