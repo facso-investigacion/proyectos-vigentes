@@ -1,53 +1,48 @@
 // proyectos-sort.js
-// Sort manual del DOM, independiente de List.js / Quarto
+// Sort manual del DOM + filtros tipo dropdown
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  // Estado: dirección actual del orden por campo
+  // ============================================================
+  // ESTADO GLOBAL
+  // ============================================================
   var sortState = { target: null, dir: null };
+  var filterState = {};  // ej: { departamento: ['Sociología'], concurso: ['Iniciación'] }
 
-  // Función para extraer el valor de un campo desde una tarjeta
-  function getFieldValue(card, target) {
-    // Los campos están en spans con clase "listing-<campo>"
-    var selector = '.listing-' + target;
-    var el = card.querySelector(selector);
+  // ============================================================
+  // UTILIDADES
+  // ============================================================
+  function getFieldValue(card, field) {
+    var el = card.querySelector('.listing-' + field);
     if (!el) return '';
-    return el.textContent.trim().toLowerCase();
+    return el.textContent.trim();
   }
 
-  // Reordenar las tarjetas dentro del grid
+  // ============================================================
+  // SORT
+  // ============================================================
   function sortCards(target, dir) {
     var grid = document.querySelector('.proyectos-grid');
     if (!grid) return;
-
     var cards = Array.from(grid.querySelectorAll('.proyecto-card'));
     if (cards.length === 0) return;
 
     cards.sort(function(a, b) {
-      var va = getFieldValue(a, target);
-      var vb = getFieldValue(b, target);
-
-      // Si parece numérico (años), comparar como número
+      var va = getFieldValue(a, target).toLowerCase();
+      var vb = getFieldValue(b, target).toLowerCase();
       var na = parseFloat(va);
       var nb = parseFloat(vb);
       if (!isNaN(na) && !isNaN(nb)) {
         return dir === 'asc' ? na - nb : nb - na;
       }
-
-      // Comparación de texto
       if (va < vb) return dir === 'asc' ? -1 : 1;
       if (va > vb) return dir === 'asc' ?  1 : -1;
       return 0;
     });
-
-    // Reinsertar en el nuevo orden
-    cards.forEach(function(card) {
-      grid.appendChild(card);
-    });
+    cards.forEach(function(c) { grid.appendChild(c); });
   }
 
   function handleSortClick(target, btn) {
-    // Alternar dirección
     var newDir;
     if (sortState.target === target) {
       newDir = sortState.dir === 'desc' ? 'asc' : 'desc';
@@ -55,10 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
       newDir = 'desc';
     }
     sortState = { target: target, dir: newDir };
-
     sortCards(target, newDir);
 
-    // Indicadores visuales
     document.querySelectorAll('.sort-button').forEach(function(b) {
       var ind = b.querySelector('.sort-indicator');
       if (ind) ind.textContent = '';
@@ -67,12 +60,139 @@ document.addEventListener('DOMContentLoaded', function() {
     if (ind) ind.textContent = newDir === 'asc' ? ' ▲' : ' ▼';
   }
 
-  // Reaplica el orden actual (útil tras filtros que reordenan el DOM)
-  function reapplyCurrentSort() {
-    if (sortState.target) sortCards(sortState.target, sortState.dir);
+  // ============================================================
+  // FILTROS DROPDOWN
+  // ============================================================
+  function getUniqueValues(field) {
+    var cards = document.querySelectorAll('.proyecto-card');
+    var values = {};
+    cards.forEach(function(card) {
+      var val = getFieldValue(card, field);
+      if (val) values[val] = true;
+    });
+    return Object.keys(values).sort();
   }
 
-  function attachSortHandlers() {
+  function buildDropdown(dropdown) {
+    var field = dropdown.dataset.filterField;
+    var menu = dropdown.querySelector('.filtro-menu');
+    var values = getUniqueValues(field);
+
+    menu.innerHTML = '';
+    values.forEach(function(val) {
+      var label = document.createElement('label');
+      label.className = 'filtro-opcion';
+
+      var checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.value = val;
+      checkbox.addEventListener('change', function() {
+        toggleFilter(field, val, checkbox.checked);
+        updateButtonLabel(dropdown);
+      });
+
+      var text = document.createElement('span');
+      text.textContent = val;
+
+      label.appendChild(checkbox);
+      label.appendChild(text);
+      menu.appendChild(label);
+    });
+  }
+
+  function toggleFilter(field, value, checked) {
+    if (!filterState[field]) filterState[field] = [];
+    if (checked) {
+      if (filterState[field].indexOf(value) === -1) {
+        filterState[field].push(value);
+      }
+    } else {
+      filterState[field] = filterState[field].filter(function(v) { return v !== value; });
+      if (filterState[field].length === 0) delete filterState[field];
+    }
+    applyFilters();
+  }
+
+  function applyFilters() {
+    var cards = document.querySelectorAll('.proyecto-card');
+    cards.forEach(function(card) {
+      var visible = true;
+      Object.keys(filterState).forEach(function(field) {
+        var selected = filterState[field];
+        if (selected.length === 0) return;
+        var cardValue = getFieldValue(card, field);
+        if (selected.indexOf(cardValue) === -1) visible = false;
+      });
+      card.style.display = visible ? '' : 'none';
+    });
+  }
+
+  function updateButtonLabel(dropdown) {
+    var field = dropdown.dataset.filterField;
+    var btn = dropdown.querySelector('.filtro-btn .filtro-label');
+    var fieldNames = {
+      fecha_inicio: 'Año',
+      concurso: 'Concurso',
+      departamento: 'Departamento'
+    };
+    var baseName = fieldNames[field] || field;
+    var count = (filterState[field] || []).length;
+    btn.textContent = count > 0 ? baseName + ' (' + count + ')' : baseName;
+
+    // Marcar el botón como activo
+    var btnEl = dropdown.querySelector('.filtro-btn');
+    if (count > 0) btnEl.classList.add('filtro-activo');
+    else btnEl.classList.remove('filtro-activo');
+  }
+
+  function setupDropdowns() {
+    var dropdowns = document.querySelectorAll('.filtro-dropdown');
+    if (dropdowns.length === 0) return false;
+
+    dropdowns.forEach(function(dropdown) {
+      if (dropdown.dataset.setup === 'true') return;
+      dropdown.dataset.setup = 'true';
+
+      buildDropdown(dropdown);
+
+      var btn = dropdown.querySelector('.filtro-btn');
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        // Cerrar otros dropdowns
+        document.querySelectorAll('.filtro-dropdown.abierto').forEach(function(d) {
+          if (d !== dropdown) d.classList.remove('abierto');
+        });
+        dropdown.classList.toggle('abierto');
+      });
+    });
+
+    // Cerrar al hacer clic fuera
+    document.addEventListener('click', function() {
+      document.querySelectorAll('.filtro-dropdown.abierto').forEach(function(d) {
+        d.classList.remove('abierto');
+      });
+    });
+
+    // Botón "Limpiar filtros"
+    var resetBtn = document.querySelector('.filtro-reset');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function() {
+        filterState = {};
+        document.querySelectorAll('.filtro-dropdown input[type="checkbox"]').forEach(function(cb) {
+          cb.checked = false;
+        });
+        document.querySelectorAll('.filtro-dropdown').forEach(updateButtonLabel);
+        applyFilters();
+      });
+    }
+
+    return true;
+  }
+
+  // ============================================================
+  // INICIALIZACIÓN
+  // ============================================================
+  function initAll() {
     var buttons = document.querySelectorAll('.sort-button');
     if (buttons.length === 0) return false;
 
@@ -84,30 +204,15 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    // Observar cambios en el grid para reaplicar el orden tras filtros
-    var grid = document.querySelector('.proyectos-grid');
-    if (grid && !grid.dataset.sortObserved) {
-      grid.dataset.sortObserved = 'true';
-      var observer = new MutationObserver(function() {
-        // Solo reaplicar si hay sort activo y el cambio no fue nuestro
-        if (!sortState.target) return;
-        if (grid.dataset.sortInProgress === 'true') return;
-
-        grid.dataset.sortInProgress = 'true';
-        reapplyCurrentSort();
-        setTimeout(function() { grid.dataset.sortInProgress = 'false'; }, 50);
-      });
-      observer.observe(grid, { childList: true });
-    }
-
+    setupDropdowns();
     return true;
   }
 
-  if (!attachSortHandlers()) {
+  if (!initAll()) {
     var tries = 0;
     var interval = setInterval(function() {
       tries++;
-      if (attachSortHandlers() || tries > 30) clearInterval(interval);
+      if (initAll() || tries > 30) clearInterval(interval);
     }, 200);
   }
 });

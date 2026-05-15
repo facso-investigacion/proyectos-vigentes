@@ -17,7 +17,7 @@
 /* --- Tarjeta ------------------------------------------------- */
 .proyecto-card {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 110px 200px 1fr;
   gap: 1rem 1.5rem;
   background: #fff;
   border-bottom: 1px solid  #dee2e6;
@@ -122,7 +122,7 @@
 
 .proyecto-header {
   display: grid;
-  grid-template-columns: 220px 1fr;  /* mismo grid que las tarjetas */
+  grid-template-columns: 110px 200px 1fr;  /* mismo grid que las tarjetas */
   padding: 0.5rem 1.25rem;
   background: color-mix(...8% primary...);
   border-bottom: 2px solid #f25e63;
@@ -152,6 +152,17 @@
   }
 }
 
+
+/* --- Columna 2: año ----------------------------------------- */
+.proyecto-anio {
+  padding-top: 0.1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #dee2e6;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #212529;
+  white-space: nowrap;
+}
 
 /* --- Encabezados clicables para ordenar --------------------- */
 .sort-button {
@@ -185,4 +196,114 @@
   font-size: 0.7rem;
   font-weight: normal;
   min-width: 0.7rem;
+}
+
+/* Responsivo: en móvil colapsar a una columna */
+@media (max-width: 640px) {
+  .proyecto-anio {
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 0.4rem;
+  }
+}
+
+/* =============================================================
+   FILTROS DROPDOWN
+   ============================================================= */
+.proyectos-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.filtro-dropdown {
+  position: relative;
+}
+
+.filtro-btn {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  color: #212529;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.filtro-btn:hover {
+  border-color: #f25e63;
+}
+
+.filtro-btn.filtro-activo {
+  border-color: #f25e63;
+  background: #fff5f5;
+  color: #f25e63;
+  font-weight: 600;
+}
+
+.filtro-caret {
+  font-size: 0.7rem;
+  margin-left: 0.1rem;
+}
+
+.filtro-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 100;
+  min-width: 220px;
+  max-height: 320px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.4rem 0;
+}
+
+.filtro-dropdown.abierto .filtro-menu {
+  display: block;
+}
+
+.filtro-opcion {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  user-select: none;
+  color: #212529;
+}
+
+.filtro-opcion:hover {
+  background: #f8f9fa;
+}
+
+.filtro-opcion input[type="checkbox"] {
+  margin: 0;
+  accent-color: #f25e63;
+  cursor: pointer;
+}
+
+.filtro-reset {
+  background: none;
+  border: none;
+  font-size: 0.82rem;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  text-decoration: underline;
+}
+
+.filtro-reset:hover {
+  color: #f25e63;
 }

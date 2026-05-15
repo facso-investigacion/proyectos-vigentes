@@ -1,13 +1,46 @@
 ```{=html}
 <div class="proyectos-grid list">
 
-<!-- Encabezados clicables para ordenar -->
+<!-- Barra de filtros tipo dropdown -->
+<div class="proyectos-filtros">
+  <div class="filtro-dropdown" data-filter-field="fecha_inicio">
+    <button type="button" class="filtro-btn">
+      <span class="filtro-label">Año</span>
+      <span class="filtro-caret">▾</span>
+    </button>
+    <div class="filtro-menu"></div>
+  </div>
+
+  <div class="filtro-dropdown" data-filter-field="concurso">
+    <button type="button" class="filtro-btn">
+      <span class="filtro-label">Concurso</span>
+      <span class="filtro-caret">▾</span>
+    </button>
+    <div class="filtro-menu"></div>
+  </div>
+
+  <div class="filtro-dropdown" data-filter-field="departamento">
+    <button type="button" class="filtro-btn">
+      <span class="filtro-label">Departamento</span>
+      <span class="filtro-caret">▾</span>
+    </button>
+    <div class="filtro-menu"></div>
+  </div>
+
+  <button type="button" class="filtro-reset">Limpiar filtros</button>
+</div>
+
+<!-- Encabezados clicables -->
 <div class="proyecto-header">
+  <button type="button" class="proyecto-header-col sort-button" data-sort-target="fecha_inicio">
+    Año
+    <span class="sort-indicator"></span>
+  </button>
   <button type="button" class="proyecto-header-col sort-button" data-sort-target="author">
     Investigador/a Responsable
     <span class="sort-indicator"></span>
   </button>
-  <button type="button" class="proyecto-header-col sort-button" data-sort-target="fecha_inicio">
+  <button type="button" class="proyecto-header-col sort-button" data-sort-target="title">
     Proyecto
     <span class="sort-indicator"></span>
   </button>
@@ -17,43 +50,41 @@
 
 <div class="proyecto-card" <%= metadataAttrs(item) %>>
 
-  <!-- Columna izquierda: autor -->
+  <!-- Columna 1: año -->
+  <div class="proyecto-anio">
+    <% if (item.fecha_inicio || item.fecha_termino) { %>
+    <span>
+      <span class="listing-fecha_inicio"><%= item.fecha_inicio || "?" %></span>
+      <span class="anio-separador"> - </span>
+      <span class="listing-fecha_termino"><%= item.fecha_termino || "?" %></span>
+    </span>
+    <% } %>
+  </div>
+
+  <!-- Columna 2: autor -->
   <div class="proyecto-autor">
     <span class="listing-author"><%= item.author || "" %></span>
   </div>
 
-  <!-- Columna derecha: información visible -->
+  <!-- Columna 3: información del proyecto -->
   <div class="proyecto-info">
 
-    <!-- Título con link -->
     <a href="<%- item.path %>" class="proyecto-titulo listing-title">
       <%= item.title %>
     </a>
 
-    <!-- Año (inicio-término) -->
-    <% if (item.fecha_inicio || item.fecha_termino) { %>
-    <div class="proyecto-meta">
-      <span class="listing departamento">
-        <%= item.fecha_inicio || "?" %> - <%= item.fecha_termino || "?" %>
-      </span>
-    </div>
-    <% } %>
-
-    <!-- Concurso -->
     <% if (item.concurso) { %>
     <div class="proyecto-meta">
-      <span class="listing departamento"><%= item.concurso %></span>
+      <span class="listing-concurso"><%= item.concurso %></span>
     </div>
     <% } %>
 
-    <!-- Departamento -->
     <% if (item.departamento) { %>
     <div class="proyecto-meta">
       <span class="listing-departamento">Departamento de <%= item.departamento %></span>
     </div>
     <% } %>
 
-    <!-- Co-investigadores FACSO -->
     <% if (item.coinvestigadores) { %>
     <div class="proyecto-meta">
       <span class="meta-label">Co-investigadores FACSO:</span>
@@ -61,7 +92,6 @@
     </div>
     <% } %>
 
-    <!-- Link al abstract -->
     <% if (item['url_abstract']) { %>
     <div class="proyecto-abstract-link">
       <a href="<%- item['url_abstract'] %>" target="_blank" rel="noopener">

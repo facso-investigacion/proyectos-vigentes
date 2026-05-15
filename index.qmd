@@ -6,19 +6,6 @@ listing:
   template: proyectos-listing.ejs.md
   page-size: 9999
   sort: "fecha_inicio desc"
-  sort-ui:
-    - author
-    - fecha_inicio
-    - departamento
-    - concurso
-  filter-ui:
-    - title
-    - author
-    - departamento
-    - concurso
-    - coinvestigadores
-    - fecha_inicio
-    - fecha_termino
   fields:
     - title
     - author
@@ -44,7 +31,7 @@ format:
         <script src="proyectos-sort.js"></script>
 ---
 
-En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. 
+En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. Se pueden aplicar filtros por Año de adjudicación, Concurso y Departamento del IR. 
 
 ::: {#proyectos-list}
 :::
