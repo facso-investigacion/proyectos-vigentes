@@ -307,3 +307,93 @@
 .filtro-reset:hover {
   color: #f25e63;
 }
+
+/* =============================================================
+   BOTÓN "VER ABSTRACT" EN PÁGINAS INDIVIDUALES
+   ============================================================= */
+
+/* Caja contenedora del ancho de la página */
+.about-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.about-links::before {
+  content: "Abstract del proyecto";
+  flex: 1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6c757d;
+}
+
+/* Botón con solo el ícono */
+.about-links .about-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1.5px solid #f25e63;
+  border-radius: 6px;
+  background: #fff;
+  color: #f25e63;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.about-links .about-link:hover {
+  background: #f25e63;
+  color: #fff;
+}
+
+.about-links .about-link i {
+  font-size: 1.1rem;
+}
+
+/* Ocultar el texto "file-text" que Quarto genera */
+.about-links .about-link-text {
+  display: none;
+}
+
+/* =============================================================
+   ABSTRACT INCRUSTADO EN PÁGINAS INDIVIDUALES
+   ============================================================= */
+.abstract-embed {
+  margin: 1rem 0;
+}
+
+.abstract-embed iframe {
+  display: block;
+  width: 100%;
+  min-height: 600px;
+}
+
+.abstract-fallback {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+  text-align: center;
+}
+
+.abstract-fallback a {
+  color: #f25e63;
+  font-weight: 600;
+}
+
+/* --- Link al perfil del investigador en Colab --------------- */
+.autor-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.autor-link:hover {
+  color: #f25e63;
+  border-bottom-style: solid;
+}

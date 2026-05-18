@@ -2,6 +2,7 @@
 title: "Socioecologías De Cuidado En Contextos De Extracción De Salmón Y Musgo Sphagnum Magellanicum (Pompón) En El Territorio Insular De Chiloé"
 date: "2024-01-01"
 author: "Maria Sol Anigstein"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-44"
 departamento: "Antropología"
 coinvestigadores: "Catalina Arteaga & Paulina Osorio"
 categories: ["Fondecyt Regular"]
@@ -14,7 +15,13 @@ duracion: "36 meses"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/cb8835731dc0a1834c2129653e9a89bd"
 about:
   template: marquee
-  links:
-    - icon: file-text
-      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/cb8835731dc0a1834c2129653e9a89bd
 ---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1240840.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1240840.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/cb8835731dc0a1834c2129653e9a89bd" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

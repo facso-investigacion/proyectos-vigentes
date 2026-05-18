@@ -1,0 +1,10 @@
+<script type="text/javascript">
+	var url = "https://auth.anid.gob.cl/index.php";
+	try{
+		parent.jQuery.colorbox.close();
+	}
+	catch(e){
+		console.log("No es popup");
+	}
+	window.parent.location.replace(url+"?ref="+window.parent.location);
+</script>

@@ -63,7 +63,12 @@
 
   <!-- Columna 2: autor -->
   <div class="proyecto-autor">
+    <% if (item.author_url) { %>
+    <a href="<%- item.author_url %>" target="_blank" rel="noopener"
+       class="listing-author autor-link"><%= item.author || "" %></a>
+    <% } else { %>
     <span class="listing-author"><%= item.author || "" %></span>
+    <% } %>
   </div>
 
   <!-- Columna 3: información del proyecto -->

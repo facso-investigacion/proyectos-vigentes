@@ -2,6 +2,7 @@
 title: "Cuerpo, Salud Mental Y Políticas Públicas En Atención Primaria En Salud"
 date: "2026-01-01"
 author: "Michele Dufey"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-60"
 departamento: "Psicología"
 categories: ["Proyecto de Investigación"]
 concurso: "Dispositivos Para La Promoción Del Quehacer Interdisciplinario Y Transdisciplinario (Dit)"

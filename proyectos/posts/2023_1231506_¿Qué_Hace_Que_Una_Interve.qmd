@@ -2,6 +2,7 @@
 title: "¿Qué Hace Que Una Intervención De Salud Mental Escolar Funcione?: Estudio De Sus ¿Componentes Centrales¿ Mediante Una Aproximación Metodológica Mixta"
 date: "2023-01-01"
 author: "Loreto Leiva"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-7"
 departamento: "Psicología"
 categories: ["Fondecyt Regular"]
 keywords: ["COMPONENTES CENTRALESSALUD MENTAL ESCOLARINTERVENCIONES PREVENTIVAS DE SALUD MENTAL"]
@@ -13,7 +14,13 @@ duracion: "48 meses"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b2b205c6d2f94af5228d87954e3dd84f"
 about:
   template: marquee
-  links:
-    - icon: file-text
-      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b2b205c6d2f94af5228d87954e3dd84f
 ---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1231506.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1231506.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b2b205c6d2f94af5228d87954e3dd84f" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

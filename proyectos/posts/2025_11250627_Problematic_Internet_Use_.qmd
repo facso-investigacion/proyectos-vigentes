@@ -2,6 +2,7 @@
 title: "Problematic Internet Use In Older Adults: Uncovering The Role Of Underlying Motives For Internet Use"
 date: "2025-01-01"
 author: "Javiera Rosell"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-112"
 departamento: "Psicología"
 categories: ["Fondecyt Iniciación"]
 keywords: ["AGING| PROBLEMATIC INTERNET USE| MOTIVES FOR INTERNET USE"]
@@ -13,7 +14,13 @@ duracion: "36 meses"
 url_abstract: "https://post.conicyt.cl/frontend.php/version/66455fb0d64ab94c151a1e9e/download/adjuntos?archivo=[73755278-375c-45d7-83b4-25f21521e46b]AbstractIniEng.pdf"
 about:
   template: marquee
-  links:
-    - icon: file-text
-      href: https://post.conicyt.cl/frontend.php/version/66455fb0d64ab94c151a1e9e/download/adjuntos?archivo=[73755278-375c-45d7-83b4-25f21521e46b]AbstractIniEng.pdf
 ---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/11250627.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/11250627.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.conicyt.cl/frontend.php/version/66455fb0d64ab94c151a1e9e/download/adjuntos?archivo=[73755278-375c-45d7-83b4-25f21521e46b]AbstractIniEng.pdf" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

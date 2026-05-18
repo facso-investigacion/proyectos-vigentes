@@ -29,10 +29,44 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(RefManageR, dplyr, stringr, stringi, tidyr)
 
 
+# ==== CARGA DE TABLA DE PERFILES COLAB =======================================
+
+archivo_nombres_sociales <- "input/nombres_sociales.xlsx"
+
+if (file.exists(archivo_nombres_sociales)) {
+  library(readxl)
+  nombres_sociales <- read_excel(archivo_nombres_sociales) |>
+    mutate(RUT = as.character(RUT))
+  # Asegurar que existe la columna url_colab
+  if (!"url_colab" %in% names(nombres_sociales)) {
+    nombres_sociales$url_colab <- NA_character_
+  }
+} else {
+  nombres_sociales <- data.frame(
+    RUT = character(0),
+    nombre_social = character(0),
+    url_colab = character(0),
+    stringsAsFactors = FALSE
+  )
+}
+
+# Buscar URL del perfil Colab a partir del nombre social
+buscar_url_perfil <- function(nombre) {
+  if (is.null(nombre) || is.na(nombre) || nombre == "") return(NA_character_)
+  nombre_norm <- tolower(stri_trans_general(nombre, "latin-ascii"))
+  ns_norm <- tolower(stri_trans_general(nombres_sociales$nombre_social, "latin-ascii"))
+  idx <- which(ns_norm == nombre_norm)
+  if (length(idx) > 0 && !is.na(nombres_sociales$url_colab[idx[1]])) {
+    return(nombres_sociales$url_colab[idx[1]])
+  }
+  return(NA_character_)
+}
+
+
 # ==== FUNCIÓN PRINCIPAL ======================================================
 
 proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
-
+  
   # Crear carpeta de salida si no existe
   if (dir.exists(outfold)) {
     qmds_anteriores <- list.files(outfold, pattern = "\\.qmd$", full.names = TRUE)
@@ -43,28 +77,28 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
   } else {
     dir.create(outfold, recursive = TRUE)
   }
-
-
+  
+  
   # ---- Función auxiliar: invertir nombres (Nombre Apellido → Apellido, Nombre) ----
   invert_author_names <- function(author_string) {
     if (is.null(author_string) || is.na(author_string) || author_string == "")
       return(author_string)
-
+    
     surname_particles <- c(
       "da", "das", "de", "del", "della", "delle", "dels", "der", "di", "do", "dos",
       "du", "el", "la", "las", "le", "los", "van", "von", "y", "san", "santa"
     )
-
+    
     authors <- trimws(unlist(strsplit(author_string, "\\s+and\\s+", perl = TRUE)))
-
+    
     authors <- vapply(authors, function(nm) {
       nm <- gsub("[{}]", "", nm)
       nm <- trimws(nm)
       if (grepl(",", nm, fixed = TRUE)) return(nm)
-
+      
       parts <- unlist(strsplit(nm, "\\s+", perl = TRUE))
       if (length(parts) < 2) return(nm)
-
+      
       idx <- length(parts)
       surname_idx <- idx
       while (idx > 1) {
@@ -77,15 +111,15 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
       given      <- paste(parts[seq_len(surname_idx - 1)], collapse = " ")
       paste0(surname, ", ", given)
     }, character(1))
-
+    
     paste(authors, collapse = " and ")
   }
-
-
+  
+  
   # ---- Leer el .bib ----
   mypubs <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
     as.data.frame()
-
+  
   # Asegurar que existan todas las columnas necesarias
   needed_cols <- c(
     "title", "author", "editor", "year", "type", "number",
@@ -95,30 +129,30 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
   for (col in needed_cols) {
     if (!col %in% names(mypubs)) mypubs[[col]] <- NA_character_
   }
-
+  
   # ---- Limpiar campos de texto ----
-
+  
   # Eliminar backslashes residuales de LaTeX
   for (col in c("title", "author", "editor", "keywords", "howpublished", "url", "institution")) {
     mypubs[[col]] <- gsub("\\\\", "", mypubs[[col]])
   }
-
+  
   # Escapar comillas dobles internas para YAML válido
   mypubs$title <- gsub('"', '\\"', mypubs$title, fixed = TRUE)
-
+  
   # Formatear co-investigadores: "A and B and C" → "A, B & C"
   mypubs$editor <- gsub(" and ", ", ", mypubs$editor, fixed = TRUE)
   mypubs$editor <- stri_replace_last_fixed(mypubs$editor, ",", " &")
-
+  
   # Formatear keywords para YAML: "A B C" → "A","B","C"  (separadas por espacios en el .bib)
   mypubs$keywords <- gsub(",", '","', mypubs$keywords)
-
+  
   # Reemplazar NAs visibles por cadena vacía en campos de texto
   for (col in c("editor", "url", "keywords", "howpublished", "duration", "institution",
                 "date-start", "date-end", "type", "number")) {
     mypubs[[col]] <- replace_na(as.character(mypubs[[col]]), "")
   }
-
+  
   # Asignar categoría basada en el concurso (campo type)
   mypubs <- mypubs %>%
     mutate(
@@ -133,14 +167,14 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
         TRUE ~ "Proyecto de Investigación"
       )
     )
-
-
+  
+  
   # ---- Función que crea un .qmd por proyecto ----
   create_md <- function(x) {
-
+    
     # Año para nombre de archivo y fecha
     anio <- ifelse(!is.na(x[["year"]]) && x[["year"]] != "", x[["year"]], "9999")
-
+    
     # Nombre de archivo: YYYY_CodigoProyecto_PrimeraPalabra.qmd
     codigo_limpio <- gsub("[^a-zA-Z0-9]", "", x[["number"]])
     titulo_corto  <- x[["title"]] %>%
@@ -149,20 +183,20 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
       str_remove_all(fixed("?")) %>%
       str_remove_all(fixed("%")) %>%
       str_sub(1, 25)
-
+    
     filename <- paste0(anio, "_", codigo_limpio, "_", titulo_corto, ".qmd")
     filepath <- file.path(outfold, filename)
-
+    
     if (file.exists(filepath) && !overwrite) return(invisible(NULL))
-
+    
     fileConn <- filepath
-
+    
     # --- Abrir YAML ---
     write("---", fileConn)
-
+    
     # Título
     write(paste0('title: "', x[["title"]], '"'), fileConn, append = TRUE)
-
+    
     # Fecha (usa date-start si existe, si no usa year)
     fecha <- if (!is.na(x[["date-start"]]) && x[["date-start"]] != "") {
       paste0(x[["date-start"]], "-01-01")
@@ -170,7 +204,7 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
       paste0(anio, "-01-01")
     }
     write(paste0('date: "', fecha, '"'), fileConn, append = TRUE)
-
+    
     # Investigador responsable (campo author)
     # author_inv   <- invert_author_names(x[["author"]])
     auth_clean   <- stri_trans_general(x[["author"]], "latin-ascii")
@@ -184,62 +218,109 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
              " & ", auth_vec[length(auth_vec)])
     }
     write(paste0('author: "', auth_display, '"'), fileConn, append = TRUE)
-
+    
+    # URL del perfil Colab (si existe)
+    url_perfil <- buscar_url_perfil(auth_display)
+    if (!is.na(url_perfil)) {
+      write(paste0('author_url: "', url_perfil, '"'), fileConn, append = TRUE)
+    }
+    
     # Departamento del IR (campo institution)
     if (!is.na(x[["institution"]]) && x[["institution"]] != "")
       write(paste0('departamento: "' , x[["institution"]], '"'), fileConn, append = TRUE)
-
+    
     # Co-investigadores (campo editor)
     if (!is.na(x[["editor"]]) && x[["editor"]] != "") {
       write(paste0('coinvestigadores: "', x[["editor"]], '"'), fileConn, append = TRUE)
     }
-
+    
     # Categorías basadas en concurso
     write(paste0('categories: ["', x[["categories"]], '"]'), fileConn, append = TRUE)
-
+    
     # Keywords
     if (!is.na(x[["keywords"]]) && x[["keywords"]] != "") {
       write(paste0('keywords: ["', x[["keywords"]], '"]'), fileConn, append = TRUE)
     }
-
+    
     # --- Bloque de detalles del proyecto ---
     # Concurso y código
     if (!is.na(x[["type"]]) && x[["type"]] != "")
       write(paste0('concurso: "', x[["type"]], '"'), fileConn, append = TRUE)
-
+    
     if (!is.na(x[["number"]]) && x[["number"]] != "")
       write(paste0('codigo_proyecto: "', x[["number"]], '"'), fileConn, append = TRUE)
-
+    
     # Fechas
     if (!is.na(x[["date-start"]]) && x[["date-start"]] != "")
       write(paste0('fecha_inicio: "', x[["date-start"]], '"'), fileConn, append = TRUE)
-
+    
     if (!is.na(x[["date-end"]]) && x[["date-end"]] != "")
       write(paste0('fecha_termino: "', x[["date-end"]], '"'), fileConn, append = TRUE)
-
+    
     if (!is.na(x[["duration"]]) && x[["duration"]] != "")
       write(paste0('duracion: "', x[["duration"]], '"'), fileConn, append = TRUE)
-
+    
     # Monto
     if (!is.na(x[["howpublished"]]) && x[["howpublished"]] != "")
       write(paste0('financiamiento: "', x[["howpublished"]], '"'), fileConn, append = TRUE)
-
+    
     # URL abstract
     if (!is.na(x[["url"]]) && x[["url"]] != "")
       write(paste0('url_abstract: "', x[["url"]], '"'), fileConn, append = TRUE)
-
+    
     # Bloque about con link al abstract si existe
     write("about:", fileConn, append = TRUE)
     write("  template: marquee", fileConn, append = TRUE)
-    if (!is.na(x[["url"]]) && x[["url"]] != "") {
-      write("  links:", fileConn, append = TRUE)
-      write("    - icon: file-text", fileConn, append = TRUE)
-      write(paste0("      href: ", x[["url"]]), fileConn, append = TRUE)
-    }
-
+    # if (!is.na(x[["url"]]) && x[["url"]] != "") {
+    #   write("  links:", fileConn, append = TRUE)
+    #   write("    - icon: file-text", fileConn, append = TRUE)
+    #   write(paste0("      href: ", x[["url"]]), fileConn, append = TRUE)
+    # }
+    
     # --- Cerrar YAML ---
     write("---", fileConn, append = TRUE)
-
+    
+    # --- Cuerpo: descargar PDF y embeberlo localmente ---
+    if (!is.na(x[["url"]]) && x[["url"]] != "") {
+      # Carpeta para los PDFs (relativa a la carpeta de salida)
+      pdf_dir <- file.path(outfold, "abstracts")
+      if (!dir.exists(pdf_dir)) dir.create(pdf_dir, recursive = TRUE)
+      
+      # Nombre del PDF basado en el código del proyecto
+      pdf_filename <- paste0(codigo_limpio, ".pdf")
+      pdf_path     <- file.path(pdf_dir, pdf_filename)
+      pdf_relpath  <- paste0("abstracts/", pdf_filename)
+      
+      # Descargar el PDF si aún no existe en disco
+      if (!file.exists(pdf_path)) {
+        tryCatch({
+          download.file(x[["url"]], pdf_path, mode = "wb", quiet = TRUE)
+        }, error = function(e) {
+          message("No se pudo descargar el PDF de ", x[["number"]], ": ", e$message)
+        })
+      }
+      
+      # Si la descarga fue exitosa, incrustar el PDF; si no, link de respaldo
+      if (file.exists(pdf_path) && file.info(pdf_path)$size > 0) {
+        write("", fileConn, append = TRUE)
+        write("## Abstract", fileConn, append = TRUE)
+        write("", fileConn, append = TRUE)
+        write('::: {.abstract-embed}', fileConn, append = TRUE)
+        write(paste0('<iframe src="', pdf_relpath, '" ',
+                     'width="100%" height="800px" ',
+                     'style="border: 1px solid #dee2e6; border-radius: 8px;">',
+                     '</iframe>'),
+              fileConn, append = TRUE)
+        write('', fileConn, append = TRUE)
+        write(paste0('<p class="abstract-fallback">Si el abstract no se visualiza, ',
+                     '<a href="', pdf_relpath, '" target="_blank">ábrelo en una nueva pestaña</a> ',
+                     'o <a href="', x[["url"]], '" target="_blank">descárgalo desde ANID</a>.</p>'),
+              fileConn, append = TRUE)
+        write(':::', fileConn, append = TRUE)
+        write("", fileConn, append = TRUE)
+      }
+    }
+    
     # --- Cuerpo: callout "Cómo citar" ---
     # Preparar autores para cita
     # authors_cita <- stri_trans_general(auth_clean, "latin-ascii")
@@ -269,7 +350,7 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
     # write(citation_text, fileConn, append = TRUE)
     # write("\n:::\n", fileConn, append = TRUE)
   }
-
+  
   # Aplicar sobre todas las filas
   cat("Generando archivos .qmd en:", outfold, "\n")
   apply(mypubs, FUN = function(x) create_md(x), MARGIN = 1)

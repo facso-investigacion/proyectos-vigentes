@@ -2,6 +2,7 @@
 title: "Ecomotricidades Enactivas Y Procesos De Construcción De Relacionalidades Educativas Comunitarias: Aportes, Articulaciones E Interacciones Desde Las Experiencias Y Proyectos Educativos Ecosistémicos Para La Edad Escolar"
 date: "2025-01-01"
 author: "Sergio Toro"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-97"
 departamento: "Educación"
 coinvestigadores: "Cynthia Adlerstein"
 categories: ["Fondecyt Regular"]
@@ -14,7 +15,13 @@ duracion: "48 meses"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/d4d4e8e0920a44bd54bf2421ce46ae82"
 about:
   template: marquee
-  links:
-    - icon: file-text
-      href: https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/d4d4e8e0920a44bd54bf2421ce46ae82
 ---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1251297.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1251297.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/d4d4e8e0920a44bd54bf2421ce46ae82" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+
