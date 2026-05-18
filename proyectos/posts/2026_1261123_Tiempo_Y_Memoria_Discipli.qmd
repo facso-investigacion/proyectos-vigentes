@@ -1,7 +1,7 @@
 ---
 title: "Tiempo Y Memoria Disciplinar: Producción De Conocimiento Del Trabajo Social Chileno En Tres Claves Temporales (1925-2025)"
 date: "2026-01-01"
-author: "Maria Rubilar"
+author: "Maria Gabriela Rubilar"
 departamento: "Trabajo Social"
 categories: ["Fondecyt Regular"]
 concurso: "Fondecyt Regular"

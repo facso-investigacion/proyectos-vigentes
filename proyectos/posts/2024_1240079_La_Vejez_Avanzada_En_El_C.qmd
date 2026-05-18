@@ -3,7 +3,7 @@ title: "La Vejez Avanzada En El Curso De La Vida. Estudio Sobre Trayectorias De 
 date: "2024-01-01"
 author: "Paulina Osorio"
 departamento: "Antropología"
-coinvestigadores: "Catalina Arteaga & María Anigstein"
+coinvestigadores: "Catalina Arteaga & María Sol Anigstein"
 categories: ["Fondecyt Regular"]
 keywords: ["TRAYECTORIAS DE CUIDADOS CUARTA EDAD ENVEJECIMIENTO"]
 concurso: "Fondecyt Regular"

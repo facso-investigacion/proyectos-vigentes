@@ -3,7 +3,7 @@ title: "Transformaciones Sociales, Transformaciones De La Comida: Estudio De La 
 date: "2025-01-01"
 author: "Carolina Belmar"
 departamento: "Antropología"
-coinvestigadores: "Constanza Torres & María Sanhueza"
+coinvestigadores: "Constanza Torres & Lorena Sanhueza"
 categories: ["Fondecyt Regular"]
 keywords: ["ARQUEOLOGIA DE LA ALIMENACION| SOCIEDADES ALFARERAS PREHISPANAS| CHILE CENTRAL"]
 concurso: "Fondecyt Regular"

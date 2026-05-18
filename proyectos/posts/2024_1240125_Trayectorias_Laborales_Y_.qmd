@@ -1,7 +1,7 @@
 ---
 title: "Trayectorias Laborales Y Precarización De Los(As) Migrantes En La Región Metropolitana Desde 1990 Al Presente"
 date: "2024-01-01"
-author: "Maria Tijoux"
+author: "Maria Emilia Tijoux"
 departamento: "Sociología"
 categories: ["Fondecyt Regular"]
 keywords: ["MIGRACIONES TRAYECTORIAS LABORALES PRECARIZACION"]

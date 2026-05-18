@@ -3,7 +3,7 @@ title: "An Interdisciplinary Approach To Coping With Parkinson's Disease And Its
 date: "2024-01-01"
 author: "Daniela Thumala"
 departamento: "Psicología"
-coinvestigadores: "Norman Arnold"
+coinvestigadores: "Marcelo Arnold"
 categories: ["Fondecyt Regular"]
 keywords: ["INTERDISCIPLINARY APPROACH (PSYCHOLOGICAL NEUROLOGICAL AND SOCIAL VARIABLES) PARKINSON'S DISEASE COPING AND WELL-BEING"]
 concurso: "Fondecyt Regular"
