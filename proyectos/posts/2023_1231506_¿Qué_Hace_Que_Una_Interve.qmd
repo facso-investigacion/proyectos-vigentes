@@ -2,6 +2,7 @@
 title: "¿Qué Hace Que Una Intervención De Salud Mental Escolar Funcione?: Estudio De Sus ¿Componentes Centrales¿ Mediante Una Aproximación Metodológica Mixta"
 date: "2023-01-01"
 author: "Loreto Leiva"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-7"
 departamento: "Psicología"
 categories: ["Fondecyt Regular"]
 keywords: ["COMPONENTES CENTRALESSALUD MENTAL ESCOLARINTERVENCIONES PREVENTIVAS DE SALUD MENTAL"]

@@ -2,6 +2,7 @@
 title: "Barreras De Género Para La Práctica De Actividad Física Entre Mujeres De Bajos Recursos. Estudio Cualitativo Para El Diseño De Recomendaciones Culturalmente Pertinentes"
 date: "2024-01-01"
 author: "Carolina Franch"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-4"
 departamento: "Antropología"
 categories: ["Proyecto de Investigación"]
 keywords: ["MUJERES| ESTUDIOS INTERDISCIPLINARIOS| ACTIVIDAD F| MUJERES| ESTUDIOS INTERDISCIPLINARIOS| ACTIVIDAD F"]

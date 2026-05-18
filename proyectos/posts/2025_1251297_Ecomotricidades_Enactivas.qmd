@@ -2,6 +2,7 @@
 title: "Ecomotricidades Enactivas Y Procesos De Construcción De Relacionalidades Educativas Comunitarias: Aportes, Articulaciones E Interacciones Desde Las Experiencias Y Proyectos Educativos Ecosistémicos Para La Edad Escolar"
 date: "2025-01-01"
 author: "Sergio Toro"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-97"
 departamento: "Educación"
 coinvestigadores: "Cynthia Adlerstein"
 categories: ["Fondecyt Regular"]

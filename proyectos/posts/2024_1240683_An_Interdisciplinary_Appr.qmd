@@ -2,6 +2,7 @@
 title: "An Interdisciplinary Approach To Coping With Parkinson's Disease And Its Relationship With Well-Being: Psychological, Neurological, And Social Variables"
 date: "2024-01-01"
 author: "Daniela Thumala"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-5"
 departamento: "Psicología"
 coinvestigadores: "Marcelo Arnold"
 categories: ["Fondecyt Regular"]

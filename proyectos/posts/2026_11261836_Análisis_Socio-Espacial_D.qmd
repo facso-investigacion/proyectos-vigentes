@@ -2,6 +2,7 @@
 title: "Análisis Socio-Espacial De Conflictos Por Vivienda. Nuevo Ciclo De Poblamiento Informal En Chile"
 date: "2026-01-01"
 author: "Valentina Abufhele"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-40"
 departamento: "Trabajo Social"
 categories: ["Fondecyt Iniciación"]
 concurso: "Iniciación en Investigación"

@@ -26,7 +26,7 @@ overwrite   <-  TRUE                  # TRUE para sobreescribir archivos existen
 # ==== DEPENDENCIAS ===========================================================
 
 if (!require("pacman")) install.packages("pacman")
-pacman::p_load(RefManageR, dplyr, stringr, stringi, tidyr)
+pacman::p_load(RefManageR, dplyr, stringr, stringi, tidyr, readxl)
 
 
 # ==== CARGA DE TABLA DE PERFILES COLAB =======================================
@@ -34,7 +34,6 @@ pacman::p_load(RefManageR, dplyr, stringr, stringi, tidyr)
 archivo_nombres_sociales <- "input/nombres_sociales.xlsx"
 
 if (file.exists(archivo_nombres_sociales)) {
-  library(readxl)
   nombres_sociales <- read_excel(archivo_nombres_sociales) |>
     mutate(RUT = as.character(RUT))
   # Asegurar que existe la columna url_colab

@@ -67,13 +67,13 @@ cat("Perfiles Colab no cruzados:     ",
     sum(!perfiles$clave_match %in% nombres$clave_match), "\n\n")
 
 # Mostrar académicos sin match (para revisión manual)
-sin_match <- nombres_enriquecidos %>%
-  filter(is.na(url_colab)) %>%
-  select(RUT, nombre_social)
-if (nrow(sin_match) > 0 && nrow(sin_match) < 50) {
-  cat("Académicos sin perfil Colab encontrado:\n")
-  print(sin_match)
-}
+# sin_match <- nombres_enriquecidos %>%
+#   filter(is.na(url_colab)) %>%
+#   select(RUT, nombre_social)
+# if (nrow(sin_match) > 0 && nrow(sin_match) < 50) {
+#   cat("Académicos sin perfil Colab encontrado:\n")
+#   print(sin_match)
+# }
 
 # ---- Guardar ----
 write_xlsx(nombres_enriquecidos, archivo_salida)

@@ -2,6 +2,7 @@
 title: "Memorias En Disputa Sobre El Levantamiento Social Del 2019 En Chile Y Los Sentidos Que Construyen En Torno A Los Ddhh"
 date: "2026-01-01"
 author: "Isabel Piper"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-86"
 departamento: "Psicología"
 coinvestigadores: "Caterine Galaz"
 categories: ["Fondecyt Regular"]

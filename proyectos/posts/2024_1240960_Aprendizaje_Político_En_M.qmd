@@ -2,6 +2,7 @@
 title: "Aprendizaje Político En Movimientos Sociales: ¿Portadores Individuales, Organizacionales Y Generacionales?"
 date: "2024-01-01"
 author: "Sofia Donoso"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-59"
 departamento: "Sociología"
 coinvestigadores: "Daniel Miranda"
 categories: ["Fondecyt Regular"]

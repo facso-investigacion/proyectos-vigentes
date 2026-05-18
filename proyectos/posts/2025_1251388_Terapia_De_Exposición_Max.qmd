@@ -2,6 +2,7 @@
 title: "Terapia De Exposición Maximizada Para El Tratamiento Y Prevención De Recaídas En Trastornos De Ansiedad: Un Ensayo Clínico Aleatorio Longitudinal"
 date: "2025-01-01"
 author: "Vanetza Quezada"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-87"
 departamento: "Psicología"
 coinvestigadores: "Gonzalo Míguez, Loreto Leiva & Mario Laborda"
 categories: ["Fondecyt Regular"]
