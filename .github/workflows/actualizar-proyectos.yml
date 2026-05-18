@@ -38,6 +38,7 @@ jobs:
             any::stringi
             any::tidyr
             any::labelled
+            any::readxl
 
       # 4. proc-inicial.R → output/proyectos_vigentes.csv
       - name: Paso 1 - Procesar datos (rdata → csv)
