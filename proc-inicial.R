@@ -4,29 +4,30 @@ library(dplyr)
 library(labelled)
 library(haven)
 library(readxl)
+library(writexl)
 
 load("input/data_proyectos.rdata")
 load("input/abstracts.rdata")
-acad <- read_excel("input/acad.xlsx")
-
-# Nombres sociales
-
-archivo_out  <- "input/nombres_sociales.csv"
-
-nombres_sociales <- acad %>%
-  mutate(
-    primer_nombre = sapply(strsplit(NOMBRES, "\\s+"), `[`, 1),
-    nombre_social = paste(primer_nombre, PATERNO)
-  ) %>%
-  select(RUT, nombre_completo_paterno = PATERNO,
-         nombre_completo_materno = MATERNO,
-         nombre_completo_nombres = NOMBRES,
-         nombre_social) %>%
-  distinct(RUT, .keep_all = TRUE) %>%   # eliminar RUTs duplicados
-  arrange(nombre_social)
-
-# Guardar como CSV
-write.csv(nombres_sociales, archivo_out, row.names = FALSE, fileEncoding = "UTF-8")
+# acad <- read_excel("input/acad.xlsx")
+# 
+# # Nombres sociales
+# 
+# archivo_out  <- "input/nombres_sociales.xlsx"
+# 
+# nombres_sociales <- acad %>%
+#   mutate(
+#     primer_nombre = sapply(strsplit(NOMBRES, "\\s+"), `[`, 1),
+#     nombre_social = paste(primer_nombre, PATERNO)
+#   ) %>%
+#   select(RUT, nombre_completo_paterno = PATERNO,
+#          nombre_completo_materno = MATERNO,
+#          nombre_completo_nombres = NOMBRES,
+#          nombre_social) %>%
+#   distinct(RUT, .keep_all = TRUE) %>%   # eliminar RUTs duplicados
+#   arrange(nombre_social)
+# 
+# # Guardar como CSV
+# write_xlsx(nombres_sociales, archivo_out)
 
 
 data_proyectos <- data_proyectos |>
@@ -45,9 +46,9 @@ proyectos_vigentes <- proyectos_vigentes |>
   left_join(consolidado, by="codigo_proyecto")
 
 # ==== Aplicar nombres sociales =============================================
-nombres_sociales <- read.csv("input/nombres_sociales.csv",
-                             stringsAsFactors = FALSE,
-                             fileEncoding = "UTF-8")
+nombres_sociales <- read_excel("input/nombres_sociales.xlsx")
+
+
 
 aplicar_nombre_social <- function(rut, nombre_original) {
   if (is.na(rut) || is.na(nombre_original)) return(nombre_original)
