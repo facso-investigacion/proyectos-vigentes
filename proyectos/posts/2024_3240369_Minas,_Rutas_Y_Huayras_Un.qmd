@@ -1,9 +1,9 @@
 ---
 title: "Minas, Rutas Y Huayras: Un Estudio Sobre La Producción Metalúrgica Del Cobre En El Valle De Catarpe Durante La Prehistoria Tardía De La Circumpuna De Atacama"
 date: "2024-01-01"
-author: "Ariadna Alejandra Cifuentes Aguilar"
+author: "Ariadna Cifuentes"
 departamento: "Antropología"
-coinvestigadores: "Andres Rolando Troncoso Melendez"
+coinvestigadores: "Andrés Troncoso"
 categories: ["Fondecyt Postdoctorado"]
 keywords: ["TECNOLOGIA METALURGICA DEL COBRE PERIODO TARDIO DESIERTO DE ATACAMA"]
 concurso: "Fondecyt Postdoctorado"

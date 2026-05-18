@@ -1,7 +1,7 @@
 ---
 title: "El Consumo Sostenible De Alimentos En Hogares Promedio De Santiago: Tensiones Entre Lo Material Y Lo Simbólico"
 date: "2025-01-01"
-author: "Alejandro Enrique Marambio Tapia"
+author: "Alejandro Marambio"
 departamento: "Trabajo Social"
 categories: ["Proyecto de Investigación"]
 concurso: "U-Apoya"

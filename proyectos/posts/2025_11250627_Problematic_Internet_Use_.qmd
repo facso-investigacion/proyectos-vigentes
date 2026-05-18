@@ -1,7 +1,7 @@
 ---
 title: "Problematic Internet Use In Older Adults: Uncovering The Role Of Underlying Motives For Internet Use"
 date: "2025-01-01"
-author: "Javiera Esperanza Rosell Cisternas"
+author: "Javiera Rosell"
 departamento: "Psicología"
 categories: ["Fondecyt Iniciación"]
 keywords: ["AGING| PROBLEMATIC INTERNET USE| MOTIVES FOR INTERNET USE"]

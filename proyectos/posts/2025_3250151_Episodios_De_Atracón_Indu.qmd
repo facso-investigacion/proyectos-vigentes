@@ -3,7 +3,7 @@ title: "Episodios De Atracón Inducidos Por Frustración: Explorando La Sensibil
 date: "2025-01-01"
 author: "Matias Serafini"
 departamento: "Psicología"
-coinvestigadores: "Gonzalo Javier Miguez Cavieres"
+coinvestigadores: "Gonzalo Míguez"
 categories: ["Fondecyt Postdoctorado"]
 keywords: ["EPISODIOS DE ATRACON| FRUSTRACION| SISTEMA DOPAMINERGICO"]
 concurso: "Fondecyt Postdoctorado"

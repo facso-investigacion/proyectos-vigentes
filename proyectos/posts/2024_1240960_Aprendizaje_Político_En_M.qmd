@@ -1,9 +1,9 @@
 ---
 title: "Aprendizaje Político En Movimientos Sociales: ¿Portadores Individuales, Organizacionales Y Generacionales?"
 date: "2024-01-01"
-author: "Sofia Catalina Donoso Knaudt"
+author: "Sofia Donoso"
 departamento: "Sociología"
-coinvestigadores: "Daniel Andres Miranda Fuenzalida"
+coinvestigadores: "Daniel Miranda"
 categories: ["Fondecyt Regular"]
 keywords: ["MOVIMIENTOS SOCIALES APRENDIZAJE POLITICO Y CONTINUIDAD DE MOVIMIENTOS SOCIALES PORTADORES INDIVIDUALES ORGANIZACIONALES Y GENERACIONALES"]
 concurso: "Fondecyt Regular"

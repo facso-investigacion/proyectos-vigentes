@@ -1,9 +1,9 @@
 ---
 title: "Espacio Y Participación Política En Jóvenes De Barrios Populares En Chile"
 date: "2025-01-01"
-author: "Nicolas Salvador Gregorio Angelcos Gutierrez"
+author: "Nicolas Angelcos"
 departamento: "Sociología"
-coinvestigadores: "Daniel Andres Miranda Fuenzalida & Valentina Paz Abufhele Milad"
+coinvestigadores: "Daniel Miranda & Valentina Abufhele"
 categories: ["Fondecyt Regular"]
 keywords: ["ESPACIO| PARTICIPACION POLITICA| JOVENES"]
 concurso: "Fondecyt Regular"

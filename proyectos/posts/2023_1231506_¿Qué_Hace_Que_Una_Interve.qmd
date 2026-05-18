@@ -1,7 +1,7 @@
 ---
 title: "¿Qué Hace Que Una Intervención De Salud Mental Escolar Funcione?: Estudio De Sus ¿Componentes Centrales¿ Mediante Una Aproximación Metodológica Mixta"
 date: "2023-01-01"
-author: "Loreto Evelyn Leiva Bahamondes"
+author: "Loreto Leiva"
 departamento: "Psicología"
 categories: ["Fondecyt Regular"]
 keywords: ["COMPONENTES CENTRALESSALUD MENTAL ESCOLARINTERVENCIONES PREVENTIVAS DE SALUD MENTAL"]

@@ -1,9 +1,9 @@
 ---
 title: "Estudio Sobre Las Prácticas Pedagógicas Para La Inclusión De Educadoras Y Educadores De Párvulos En Contextos De Jardines Infantiles. Exploración En El Nivel Sala Cuna Y Medio Menor"
 date: "2024-01-01"
-author: "Daniela Olivia Puentes Chavez"
+author: "Daniela Puentes"
 departamento: "Educación"
-coinvestigadores: "Valeria Modesta Herrera Fernandez"
+coinvestigadores: "Valeria Herrera"
 categories: ["Fondecyt Postdoctorado"]
 keywords: ["PRACTICA PEDAGOGICA INCLUSION EDUCACION INICIAL"]
 concurso: "Fondecyt Postdoctorado"

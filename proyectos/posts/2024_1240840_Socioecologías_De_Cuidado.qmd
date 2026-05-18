@@ -1,9 +1,9 @@
 ---
 title: "Socioecologías De Cuidado En Contextos De Extracción De Salmón Y Musgo Sphagnum Magellanicum (Pompón) En El Territorio Insular De Chiloé"
 date: "2024-01-01"
-author: "Maria Sol Anigstein"
+author: "Maria Anigstein"
 departamento: "Antropología"
-coinvestigadores: "Catalina Arteaga Aguirre & Paulina Isabel Osorio Parraguez"
+coinvestigadores: "Catalina Arteaga & Paulina Osorio"
 categories: ["Fondecyt Regular"]
 keywords: ["CUIDADOS Y SOSTENIBILIDAD DE LA VIDA ECOLOGIA POLITICA Y ECOFEMINISMO ENFOQUE ETNOGRAFICO"]
 concurso: "Fondecyt Regular"

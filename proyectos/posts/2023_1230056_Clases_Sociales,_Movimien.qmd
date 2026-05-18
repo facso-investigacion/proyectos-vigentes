@@ -1,7 +1,7 @@
 ---
 title: "Clases Sociales, Movimientos Sindicales Y Conflicto En Tiempos De Crisis: Un Estudio Comparativo De Argentina Y Chile"
 date: "2023-01-01"
-author: "Pablo Alonso Perez Ahumada"
+author: "Pablo Perez"
 departamento: "Sociología"
 categories: ["Fondecyt Regular"]
 keywords: ["CLASES SOCIALES SINDICATOS Y RELACIONES LABORALES CONFLICTO SOCIAL Y POLITICO"]

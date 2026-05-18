@@ -1,9 +1,9 @@
 ---
 title: "Science-Policy Interfaces And Scenario Construction In Chile: How To Better Bridge Scientific Evidence With Policy-Making? An Inter-Transdisciplinary Challenge For Environmental Complex Problems"
 date: "2023-01-01"
-author: "Anahi Veronica Josefina Urquiza Gomez"
+author: "Anahi Urquiza"
 departamento: "Trabajo Social"
-coinvestigadores: "Gabriela Alejandra Azocar De La Cruz"
+coinvestigadores: "Gabriela Azócar"
 categories: ["Fondecyt Regular"]
 keywords: ["ACTIONABLE KNOWLEDGEDECISION-MAKING UNDER DEEP UNCERTAINTYINTERDISCIPLINARY MODELING"]
 concurso: "Fondecyt Regular"

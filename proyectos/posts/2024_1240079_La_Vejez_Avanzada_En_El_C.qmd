@@ -1,9 +1,9 @@
 ---
 title: "La Vejez Avanzada En El Curso De La Vida. Estudio Sobre Trayectorias De Cuidados De Personas Mayores En Chile"
 date: "2024-01-01"
-author: "Paulina Isabel Osorio Parraguez"
+author: "Paulina Osorio"
 departamento: "Antropología"
-coinvestigadores: "Catalina Arteaga Aguirre & Maria Sol Anigstein"
+coinvestigadores: "Catalina Arteaga & María Anigstein"
 categories: ["Fondecyt Regular"]
 keywords: ["TRAYECTORIAS DE CUIDADOS CUARTA EDAD ENVEJECIMIENTO"]
 concurso: "Fondecyt Regular"

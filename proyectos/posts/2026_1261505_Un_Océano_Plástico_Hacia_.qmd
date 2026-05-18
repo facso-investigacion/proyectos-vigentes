@@ -1,7 +1,7 @@
 ---
 title: "Un Océano Plástico: Hacia Una Antropología De La Polución Marina En El Antropoceno"
 date: "2026-01-01"
-author: "Francisco Javier Araos Leiva"
+author: "Francisco Araos"
 departamento: "Antropología"
 categories: ["Fondecyt Regular"]
 concurso: "Fondecyt Regular"

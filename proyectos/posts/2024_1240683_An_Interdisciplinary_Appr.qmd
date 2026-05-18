@@ -1,9 +1,9 @@
 ---
 title: "An Interdisciplinary Approach To Coping With Parkinson's Disease And Its Relationship With Well-Being: Psychological, Neurological, And Social Variables"
 date: "2024-01-01"
-author: "Daniela Cecilia Thumala Dockendorff"
+author: "Daniela Thumala"
 departamento: "Psicología"
-coinvestigadores: "Norman Marcelo Arnold Cathalifaud"
+coinvestigadores: "Norman Arnold"
 categories: ["Fondecyt Regular"]
 keywords: ["INTERDISCIPLINARY APPROACH (PSYCHOLOGICAL NEUROLOGICAL AND SOCIAL VARIABLES) PARKINSON'S DISEASE COPING AND WELL-BEING"]
 concurso: "Fondecyt Regular"

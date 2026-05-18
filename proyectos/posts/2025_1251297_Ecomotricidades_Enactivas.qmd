@@ -1,9 +1,9 @@
 ---
 title: "Ecomotricidades Enactivas Y Procesos De Construcción De Relacionalidades Educativas Comunitarias: Aportes, Articulaciones E Interacciones Desde Las Experiencias Y Proyectos Educativos Ecosistémicos Para La Edad Escolar"
 date: "2025-01-01"
-author: "Sergio Alejandro Toro Arevalo"
+author: "Sergio Toro"
 departamento: "Educación"
-coinvestigadores: "Cynthia Yael Adlerstein Grimberg"
+coinvestigadores: "Cynthia Adlerstein"
 categories: ["Fondecyt Regular"]
 keywords: ["ECOMOTRICIDAD -| ENACCION| COMUNIDAD ESCOLAR"]
 concurso: "Fondecyt Regular"

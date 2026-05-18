@@ -1,7 +1,7 @@
 ---
 title: "Transición Energética Y Minerales Críticos: Tensiones Por Futuros Socio-Ecológicos Divergentes"
 date: "2023-01-01"
-author: "Fernando Andres Campos Medina"
+author: "Fernando Campos"
 departamento: "Sociología"
 categories: ["Fondecyt Regular"]
 keywords: ["TRANSICION ENERGETICA Y MINERALES CRITICOSCONFLICTIVIDAD SOCIO-TERRITORIALFUTUROS SOCIO-ECOLOGICOS ALTERNATIVOS"]

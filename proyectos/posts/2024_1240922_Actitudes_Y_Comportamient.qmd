@@ -1,9 +1,9 @@
 ---
 title: "Actitudes Y Comportamiento Político Juvenil: Desigualdad, Estilos De Socialización Escolar E Influencias Intergeneracionales"
 date: "2024-01-01"
-author: "Daniel Andres Miranda Fuenzalida"
+author: "Daniel Miranda"
 departamento: "Psicología"
-coinvestigadores: "Nicolas Salvador Gregorio Angelcos Gutierrez"
+coinvestigadores: "Nicolás Angelcos"
 categories: ["Fondecyt Regular"]
 keywords: ["SOCIALIZACION POLITICA PARTICIPACION POLITICA JUVENIL DESIGUALDAD POLITICA"]
 concurso: "Fondecyt Regular"

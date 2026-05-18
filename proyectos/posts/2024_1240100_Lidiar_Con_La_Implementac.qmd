@@ -1,9 +1,9 @@
 ---
 title: "Lidiar Con La Implementación De Programas Sociales En Territorios Extremadamente Críticos: Capacidades De Agencia De Las/Os Implementadores Bajo Una Institucionalidad Débil"
 date: "2024-01-01"
-author: "Gianinna Ines Munoz Arce"
+author: "Gianinna Munoz"
 departamento: "Trabajo Social"
-coinvestigadores: "Tal Reininger Pollak"
+coinvestigadores: "Tal Reininger"
 categories: ["Fondecyt Regular"]
 keywords: ["IMPLEMENTADORES/AS DE PROGRAMAS SOCIALES CAPACIDADES DE AGENCIA TERRITORIOS 'CRITICOS'"]
 concurso: "Fondecyt Regular"

@@ -1,7 +1,7 @@
 ---
 title: "Advancing Our Understanding Of Mesotheriid Feeding Ecology"
 date: "2024-01-01"
-author: "Kornelius Florian Kupczik"
+author: "Kornelius Kupczik"
 departamento: "Antropología"
 categories: ["Fondecyt Regular"]
 keywords: ["PALEOECOLOGY FEEDING MECHANICS TOOTH WEAR"]

@@ -1,7 +1,7 @@
 ---
 title: "Significados Sobre La Democracia En Estudiantes De Pedagogía Con Compromiso Político. Orientaciones De Sentido A Partir De Sus Recorridos Biográficos"
 date: "2024-01-01"
-author: "Marcela Eliana Betancourt Saez"
+author: "Marcela Betancourt"
 departamento: "Educación"
 categories: ["Fondecyt Iniciación"]
 keywords: ["SIGNIFICADOS SOBRE LA DEMOCRACIA EN ESTUDIANTES DE PEDAGOGIA FORMACION INICIAL DOCENTE RECORRIDOS BIOGRAFICOS"]

@@ -1,9 +1,9 @@
 ---
 title: "Terapia De Exposición Maximizada Para El Tratamiento Y Prevención De Recaídas En Trastornos De Ansiedad: Un Ensayo Clínico Aleatorio Longitudinal"
 date: "2025-01-01"
-author: "Vanetza Estela Quezada Scholz"
+author: "Vanetza Quezada"
 departamento: "Psicología"
-coinvestigadores: "Gonzalo Javier Miguez Cavieres, Loreto Evelyn Leiva Bahamondes & Mario Arturo Laborda Rojas"
+coinvestigadores: "Gonzalo Míguez, Loreto Leiva & Mario Laborda"
 categories: ["Fondecyt Regular"]
 keywords: ["EFICACIA| TERAPIA DE EXPOSICION OPTIMIZADA| TRASTORNOS DE ANSIEDAD"]
 concurso: "Fondecyt Regular"

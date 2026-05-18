@@ -1,9 +1,9 @@
 ---
 title: "La Articulación De Las Prescripciones Emocionales, Las Condiciones Laborales Y Los Sentidos Profesionales En El Trabajo Emocional Cotidiano Que Realizan Docentes En Escuelas Públicas Vulnerables. Un Estudio Cualitativo Complejo Multi Componencial"
 date: "2024-01-01"
-author: "Rodrigo Carlos Cornejo Chavez"
+author: "Rodrigo Cornejo"
 departamento: "Psicología"
-coinvestigadores: "Christian Esteban Miranda Jana & Jesus Maria Redondo Rojo"
+coinvestigadores: "Christian Miranda & Jesus Redondo"
 categories: ["Fondecyt Regular"]
 keywords: ["TRABAJO DOCENTE TRABAJO EMOCIONAL ETNOGRAFIA DEL TRABAJO DOCENTE"]
 concurso: "Fondecyt Regular"

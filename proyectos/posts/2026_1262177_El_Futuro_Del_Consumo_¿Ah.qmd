@@ -1,9 +1,9 @@
 ---
 title: "El Futuro Del Consumo ¿Ahora? Tensiones Y Prácticas De Consumo Material, Simbólico Y Postmaterial En Sociedades Desiguales"
 date: "2026-01-01"
-author: "Alejandro Enrique Marambio Tapia"
+author: "Alejandro Marambio"
 departamento: "Trabajo Social"
-coinvestigadores: "Lorena Andrea Perez Roa"
+coinvestigadores: "Lorena Pérez"
 categories: ["Fondecyt Regular"]
 concurso: "Fondecyt Regular"
 codigo_proyecto: "1262177"

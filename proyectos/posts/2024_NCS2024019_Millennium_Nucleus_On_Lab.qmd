@@ -1,9 +1,9 @@
 ---
 title: "Millennium Nucleus On Labor Policy And Family And Collective Life"
 date: "2024-01-01"
-author: "Pablo Alonso Perez Ahumada"
+author: "Pablo Perez"
 departamento: "Sociología"
-coinvestigadores: "Julieta Carolina Palma Palma"
+coinvestigadores: "Julieta Palma"
 categories: ["Núcleos Milenio"]
 concurso: "Núcleo Milenio En Ciencias Sociales"
 codigo_proyecto: "NCS2024\_019"

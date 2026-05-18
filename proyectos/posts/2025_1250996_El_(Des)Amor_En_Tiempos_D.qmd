@@ -1,9 +1,9 @@
 ---
 title: "El (Des)Amor En Tiempos Democráticos: Moralidad Cotidiana En La Vida Familiar Post-Separación"
 date: "2025-01-01"
-author: "Camilo Andres Sembler Reyes"
+author: "Camilo Sembler"
 departamento: "Sociología"
-coinvestigadores: "Julieta Carolina Palma Palma"
+coinvestigadores: "Julieta Palma"
 categories: ["Fondecyt Regular"]
 concurso: "Fondecyt Regular"
 codigo_proyecto: "1250996"

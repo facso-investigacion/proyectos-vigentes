@@ -1,9 +1,9 @@
 ---
 title: "Trayectorias Educativas De Estudiantes Migrantes Que Cursan Estudios En Universidades Del Consejo De Rectores De Universidades Chilenas (Cruch) Situadas En La Región Metropolitana"
 date: "2024-01-01"
-author: "Claudia Marcela Carrillo Sanchez"
+author: "Claudia Carrillo"
 departamento: "Educación"
-coinvestigadores: "Susan Valeria Sanhueza Henriquez"
+coinvestigadores: "Susan Sanhueza"
 categories: ["Fondecyt Postdoctorado"]
 keywords: ["TRAYECTORIAS EDUCATIVAS MIGRACION EDUCACION SUPERIOR"]
 concurso: "Fondecyt Postdoctorado"
