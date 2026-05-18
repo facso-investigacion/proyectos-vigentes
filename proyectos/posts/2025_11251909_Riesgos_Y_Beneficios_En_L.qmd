@@ -2,7 +2,6 @@
 title: "Riesgos Y Beneficios En La Investigación Social. Concepciones Y Prácticas De Sociólogos(As) Y Comités De Ética De La Investigación"
 date: "2025-01-01"
 author: "Marcela Ferrer"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-63"
 departamento: "Sociología"
 categories: ["Fondecyt Iniciación"]
 keywords: ["ETICA DE LA INVESTIGACION EN CIENCIAS SOCIALES| RIESGOS Y BENEFICIOS DE LA INVESTIGACION SOCIAL| COMITES DE ETICA DE LA INVESTIGACION"]

@@ -2,7 +2,6 @@
 title: "Impacto Del Encarcelamiento En Personas Imputadas En Chile: Estudio Empírico De Los Efectos Psicosociales De La Prisión Preventiva"
 date: "2025-01-01"
 author: "Carolina Villagra"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-116"
 departamento: "Psicología"
 categories: ["Fondecyt Iniciación"]
 keywords: ["PRISION PREVENTIVA| ENCARCELAMIENTO| EFECTOS PSICOSOCIALES"]

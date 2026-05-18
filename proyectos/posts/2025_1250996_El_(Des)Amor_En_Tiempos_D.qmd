@@ -2,7 +2,6 @@
 title: "El (Des)Amor En Tiempos Democráticos: Moralidad Cotidiana En La Vida Familiar Post-Separación"
 date: "2025-01-01"
 author: "Camilo Sembler"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-114"
 departamento: "Sociología"
 coinvestigadores: "Julieta Palma"
 categories: ["Fondecyt Regular"]

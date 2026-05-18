@@ -2,7 +2,6 @@
 title: "Transformaciones Sociales, Transformaciones De La Comida: Estudio De La Variabilidad Alimentaria En Sociedades Alfareras De Chile Central (300 A.c. - 1536 D.c.)"
 date: "2025-01-01"
 author: "Carolina Belmar"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-24"
 departamento: "Antropología"
 coinvestigadores: "Constanza Torres & Lorena Sanhueza"
 categories: ["Fondecyt Regular"]

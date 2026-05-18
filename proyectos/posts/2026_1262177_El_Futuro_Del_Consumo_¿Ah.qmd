@@ -2,7 +2,6 @@
 title: "El Futuro Del Consumo ¿Ahora? Tensiones Y Prácticas De Consumo Material, Simbólico Y Postmaterial En Sociedades Desiguales"
 date: "2026-01-01"
 author: "Alejandro Marambio"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-104"
 departamento: "Trabajo Social"
 coinvestigadores: "Lorena Pérez"
 categories: ["Fondecyt Regular"]

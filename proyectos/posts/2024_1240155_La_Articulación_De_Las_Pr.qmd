@@ -2,7 +2,6 @@
 title: "La Articulación De Las Prescripciones Emocionales, Las Condiciones Laborales Y Los Sentidos Profesionales En El Trabajo Emocional Cotidiano Que Realizan Docentes En Escuelas Públicas Vulnerables. Un Estudio Cualitativo Complejo Multi Componencial"
 date: "2024-01-01"
 author: "Rodrigo Cornejo"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-34"
 departamento: "Psicología"
 coinvestigadores: "Christian Miranda & Jesus Redondo"
 categories: ["Fondecyt Regular"]

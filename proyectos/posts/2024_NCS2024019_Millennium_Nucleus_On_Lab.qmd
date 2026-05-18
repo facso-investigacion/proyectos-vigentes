@@ -2,7 +2,6 @@
 title: "Millennium Nucleus On Labor Policy And Family And Collective Life"
 date: "2024-01-01"
 author: "Pablo Perez"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-18"
 departamento: "Sociología"
 coinvestigadores: "Julieta Palma"
 categories: ["Núcleos Milenio"]

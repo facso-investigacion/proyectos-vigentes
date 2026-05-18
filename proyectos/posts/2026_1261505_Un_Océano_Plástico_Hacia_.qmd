@@ -2,7 +2,6 @@
 title: "Un Océano Plástico: Hacia Una Antropología De La Polución Marina En El Antropoceno"
 date: "2026-01-01"
 author: "Francisco Araos"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-111"
 departamento: "Antropología"
 categories: ["Fondecyt Regular"]
 concurso: "Fondecyt Regular"

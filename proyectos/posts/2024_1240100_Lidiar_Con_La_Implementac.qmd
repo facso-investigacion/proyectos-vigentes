@@ -2,7 +2,6 @@
 title: "Lidiar Con La Implementación De Programas Sociales En Territorios Extremadamente Críticos: Capacidades De Agencia De Las/Os Implementadores Bajo Una Institucionalidad Débil"
 date: "2024-01-01"
 author: "Gianinna Munoz"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-35"
 departamento: "Trabajo Social"
 coinvestigadores: "Tal Reininger"
 categories: ["Fondecyt Regular"]

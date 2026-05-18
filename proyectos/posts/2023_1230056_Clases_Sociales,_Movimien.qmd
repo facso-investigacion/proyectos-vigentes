@@ -2,7 +2,6 @@
 title: "Clases Sociales, Movimientos Sindicales Y Conflicto En Tiempos De Crisis: Un Estudio Comparativo De Argentina Y Chile"
 date: "2023-01-01"
 author: "Pablo Perez"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-18"
 departamento: "Sociología"
 categories: ["Fondecyt Regular"]
 keywords: ["CLASES SOCIALES SINDICATOS Y RELACIONES LABORALES CONFLICTO SOCIAL Y POLITICO"]

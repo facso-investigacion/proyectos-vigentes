@@ -2,7 +2,6 @@
 title: "Espacio Y Participación Política En Jóvenes De Barrios Populares En Chile"
 date: "2025-01-01"
 author: "Nicolas Angelcos"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-8"
 departamento: "Sociología"
 coinvestigadores: "Daniel Miranda & Valentina Abufhele"
 categories: ["Fondecyt Regular"]

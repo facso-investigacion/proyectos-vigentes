@@ -2,7 +2,6 @@
 title: "Justicia De Mercado Y Merecimiento Del Bienestar Social"
 date: "2025-01-01"
 author: "Juan Carlos Castillo"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-6"
 departamento: "Sociología"
 categories: ["Fondecyt Regular"]
 keywords: ["JUSTICIA DISTRIBUTIVA| MERECIMIENTO| MERITOCRACIA"]

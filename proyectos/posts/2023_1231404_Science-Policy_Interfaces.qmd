@@ -2,7 +2,6 @@
 title: "Science-Policy Interfaces And Scenario Construction In Chile: How To Better Bridge Scientific Evidence With Policy-Making? An Inter-Transdisciplinary Challenge For Environmental Complex Problems"
 date: "2023-01-01"
 author: "Anahi Urquiza"
-author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-99"
 departamento: "Trabajo Social"
 coinvestigadores: "Gabriela Azócar"
 categories: ["Fondecyt Regular"]
