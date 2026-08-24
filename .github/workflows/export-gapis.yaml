@@ -1,0 +1,32 @@
+name: Exportar archivos a gapis
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'output/proyectos_vigentes.csv'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio origen (proyectos-vigentes)
+        uses: actions/checkout@v4
+
+      - name: Clonar repositorio destino (gapis)
+        run: |
+          git clone https://x-access-token:${{ secrets.GAPIS_TOKEN }}@github.com/facso-investigacion/gapis.git destino
+
+      - name: Copiar archivos a la carpeta input del destino
+        run: |
+          mkdir -p destino/input
+          cp output/proyectos_vigentes.csv destino/input/
+
+      - name: Commit y push en repositorio destino
+        run: |
+          cd destino
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add input/proyectos_vigentes.csv
+          git diff --staged --quiet || git commit -m "Actualización automática desde proyectos-vigentes"
+          git push
