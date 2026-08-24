@@ -1,0 +1,25 @@
+---
+title: "Discursos y prácticas solidarias antes, durante y después de la pandemia: un estudio de caso en la población San Gregorio"
+date: "2025-01-01"
+author: "Soledad Ruiz"
+departamento: "Psicología"
+categories: ["Fondecyt Iniciación"]
+keywords: ["PRACTICAS SOLIDARIAS| POBLACION TERRITORIALMENTE SEGREGADA POR RAZONES SOCIOECONOMICAS| ETNOGRAFIA"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11251924"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.conicyt.cl/frontend.php/version/665643c5d2c2516809bd428c/download/adjuntos?archivo=[98f66755-e1f8-4f78-9679-4e52e60b92df]ResumenIniEsp.pdf"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/11251924.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/11251924.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.conicyt.cl/frontend.php/version/665643c5d2c2516809bd428c/download/adjuntos?archivo=[98f66755-e1f8-4f78-9679-4e52e60b92df]ResumenIniEsp.pdf" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

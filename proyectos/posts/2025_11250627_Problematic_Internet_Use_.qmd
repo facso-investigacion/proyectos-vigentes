@@ -1,5 +1,5 @@
 ---
-title: "Problematic Internet Use In Older Adults: Uncovering The Role Of Underlying Motives For Internet Use"
+title: "Problematic Internet Use in Older Adults: Uncovering the Role of Underlying Motives for Internet Use"
 date: "2025-01-01"
 author: "Javiera Rosell"
 author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-112"

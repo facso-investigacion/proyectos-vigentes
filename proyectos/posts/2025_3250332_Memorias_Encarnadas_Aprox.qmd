@@ -1,0 +1,15 @@
+---
+title: "Memorias Encarnadas: Aproximacion A Las Trayectorias De Uso Y Produccion De Objetos De La Violencia Politica En Chile (1973-1990)"
+date: "2025-01-01"
+author: "Nicole Fuenzalida"
+departamento: "Antropología"
+categories: ["Fondecyt Postdoctorado"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3250332"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/bb68d94d94bf9738a38aa7268596ef6c"
+about:
+  template: marquee
+---

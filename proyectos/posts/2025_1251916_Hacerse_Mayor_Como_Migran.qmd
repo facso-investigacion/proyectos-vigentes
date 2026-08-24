@@ -1,0 +1,15 @@
+---
+title: "Hacerse Mayor Como Migrante \"En El Lugar\" De Destino: El Envejecimiento Desde La Perspectiva De Mujeres Peruanas Largamente Asentadas En Chile"
+date: "2025-01-01"
+author: "Carolina Elizabeth Ramirez Cabrera"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251916"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/23b90350f508a6aa99de29da3a1ba6a1"
+about:
+  template: marquee
+---

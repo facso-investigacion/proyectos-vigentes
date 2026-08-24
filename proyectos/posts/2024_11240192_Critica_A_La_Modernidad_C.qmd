@@ -1,0 +1,15 @@
+---
+title: "Critica A La Modernidad Capitalista Y El Problema Del Tiempo Historico. Contribuciones De Bolivar Echeverria Para Las Pedagogias Criticas Latinoamericanas."
+date: "2024-01-01"
+author: "Jorge Cabaluz"
+departamento: "Educación"
+categories: ["Fondecyt Iniciación"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11240192"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/c892afc4b4f06e67e11acb6d03e62bae"
+about:
+  template: marquee
+---

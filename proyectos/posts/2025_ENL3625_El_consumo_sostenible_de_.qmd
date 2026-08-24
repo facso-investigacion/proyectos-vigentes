@@ -1,0 +1,15 @@
+---
+title: "El consumo sostenible de alimentos en hogares promedio de Santiago: tensiones entre lo material y lo simbólico"
+date: "2025-01-01"
+author: "Alejandro Marambio"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-104"
+departamento: "Trabajo Social"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Apoya"
+codigo_proyecto: "ENL36/25"
+fecha_inicio: "2025"
+fecha_termino: "2026"
+duracion: "12 meses"
+about:
+  template: marquee
+---

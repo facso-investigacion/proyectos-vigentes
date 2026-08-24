@@ -1,0 +1,15 @@
+---
+title: "Transformacion Del Habitus En Estudiantes De Nivel Socioeconomico Medio-Bajo Y Bajo En Universidades De Elite"
+date: "2024-01-01"
+author: "Omar Aguilar"
+departamento: "Sociología"
+categories: ["Fondecyt Iniciación"]
+concurso: "Iniciación en Investigación"
+codigo_proyecto: "11240611"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/480fa7ce2fa37dfcf4672a474b2a975e"
+about:
+  template: marquee
+---

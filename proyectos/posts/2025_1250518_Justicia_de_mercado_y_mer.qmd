@@ -1,0 +1,26 @@
+---
+title: "Justicia de mercado y merecimiento del bienestar social"
+date: "2025-01-01"
+author: "Juan Carlos Castillo"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-6"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+keywords: ["JUSTICIA DISTRIBUTIVA| MERECIMIENTO| MERITOCRACIA"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250518"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/be7b8cd328a6283acbb07986d0bd9be0"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1250518.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1250518.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/be7b8cd328a6283acbb07986d0bd9be0" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

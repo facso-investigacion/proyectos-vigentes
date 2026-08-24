@@ -1,0 +1,15 @@
+---
+title: "The Tocqueville Paradox In Chile And Latin America? Dissecting The Effects Of Social Mobility On Deservingness Redistribution And Prosociality"
+date: "2023-01-01"
+author: "Mauricio Esteban Salgado Oyarce"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231651"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/7e068665d21c3114b7007fa44e046626"
+about:
+  template: marquee
+---

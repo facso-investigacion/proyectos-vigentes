@@ -1,0 +1,16 @@
+---
+title: "Un océano plástico: hacia una antropología de la polución marina en el Antropoceno"
+date: "2026-01-01"
+author: "Francisco Araos"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-111"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+keywords: ["ANTROPOLOGIA AMBIENTAL| PLASTICO| OCEANO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1261505"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

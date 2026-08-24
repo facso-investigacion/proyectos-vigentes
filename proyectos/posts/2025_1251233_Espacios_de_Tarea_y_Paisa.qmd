@@ -1,0 +1,26 @@
+---
+title: "Espacios de Tarea y Paisajes Históricos entre los grupos cazadores-recolectores-pescadores de los valles de Elqui y Limarí (29°-30°S, ca. 12.000 a 1.200 cal. a.p.)"
+date: "2025-01-01"
+author: "Andres Troncoso"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-31"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+keywords: ["CAZADORES-RECOLECTORES-PESCADORES| PAISAJES HISTORICOS| NORTE SEMIARIDO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251233"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4babf16fa84e459ecd9d6c31fc5f2a0b"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1251233.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1251233.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4babf16fa84e459ecd9d6c31fc5f2a0b" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

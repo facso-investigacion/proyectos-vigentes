@@ -1,0 +1,17 @@
+---
+title: "El (des)amor en tiempos democráticos: moralidad cotidiana en la vida familiar post-separación"
+date: "2025-01-01"
+author: "Camilo Sembler"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-114"
+departamento: "Sociología"
+coinvestigadores: "Julieta Palma"
+categories: ["Fondecyt Regular"]
+keywords: ["SEPARACIONES| FAMILIAS| INJUSTICIAS COTIDIANAS"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250996"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+about:
+  template: marquee
+---

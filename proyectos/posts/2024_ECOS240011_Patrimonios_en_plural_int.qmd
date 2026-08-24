@@ -1,0 +1,16 @@
+---
+title: "Patrimonios en plural: interculturalidad, nuevas museologías y memorias en conflicto en las instituciones culturales y educativas en Chile y Francia"
+date: "2025-01-01"
+author: "Marisol Facuse"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-28"
+departamento: "Sociología"
+categories: ["Proyecto de Investigación"]
+keywords: ["PATRIMONIOS| PLURINACIONALIDAD/INTERCULTURALIDAD/BUEN VIVIR| MEMORIAS"]
+concurso: "Ecos"
+codigo_proyecto: "ECOS240011"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

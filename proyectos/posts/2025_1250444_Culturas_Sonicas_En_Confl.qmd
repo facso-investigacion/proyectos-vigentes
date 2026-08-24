@@ -1,0 +1,15 @@
+---
+title: "Culturas Sonicas En Conflicto: Un Estudio Aural De La Convivencia Intercultural E Interespecie En Territorios Urbanos Y Rurales De Chile"
+date: "2025-01-01"
+author: "Carla Maria Pinochet Cobos"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250444"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/cb2c34c12d4d11d1ca1feaa4f968ebbc"
+about:
+  template: marquee
+---

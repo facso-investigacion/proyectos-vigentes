@@ -1,0 +1,15 @@
+---
+title: "The Theory Of The Axial Age As A Progressive Research Programme."
+date: "2025-01-01"
+author: "Daniel Enrique Chernilo Steiner"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250603"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/f3e3af14bddc08f6f100a3889891a862"
+about:
+  template: marquee
+---

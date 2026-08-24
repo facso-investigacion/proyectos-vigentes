@@ -1,0 +1,14 @@
+---
+title: "Experimentación arqueológico-forense e innovación metodológica en sitios de memoria: hacia una nueva línea aplicada para el análisis material de la represión estatal"
+date: "2025-01-01"
+author: "Nicole Fuenzalida"
+departamento: "Antropología"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Inicia"
+codigo_proyecto: "UI-009/25"
+fecha_inicio: "2025"
+fecha_termino: "2027"
+duracion: "18 meses"
+about:
+  template: marquee
+---

@@ -1,0 +1,17 @@
+---
+title: "El futuro del consumo ¿ahora? Tensiones y prácticas de consumo material, simbólico y postmaterial en sociedades desiguales"
+date: "2026-01-01"
+author: "Alejandro Marambio"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-104"
+departamento: "Trabajo Social"
+coinvestigadores: "Lorena Pérez"
+categories: ["Fondecyt Regular"]
+keywords: ["CONSUMO| SOSTENIBILIDAD| CULTURA DE CONSUMO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1262177"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

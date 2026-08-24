@@ -1,0 +1,27 @@
+---
+title: "Transformaciones sociales, transformaciones de la comida: estudio de la variabilidad alimentaria en sociedades alfareras de Chile central (300 a.C. - 1536 d.C.)"
+date: "2025-01-01"
+author: "Carolina Belmar"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-24"
+departamento: "Antropología"
+coinvestigadores: "Constanza Torres & Lorena Sanhueza"
+categories: ["Fondecyt Regular"]
+keywords: ["ARQUEOLOGIA DE LA ALIMENACION| SOCIEDADES ALFARERAS PREHISPANAS| CHILE CENTRAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250185"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/75976e8da715f4ed4da821b6806ed0e2"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1250185.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1250185.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/75976e8da715f4ed4da821b6806ed0e2" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

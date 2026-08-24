@@ -1,0 +1,26 @@
+---
+title: "Minas, rutas y huayras: un estudio sobre la producción metalúrgica del cobre en el valle de catarpe durante la prehistoria tardía de la circumpuna de atacama"
+date: "2024-01-01"
+author: "Ariadna Cifuentes"
+departamento: "Antropología"
+coinvestigadores: "Andrés Troncoso"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["TECNOLOGIA METALURGICA DEL COBRE PERIODO TARDIO DESIERTO DE ATACAMA"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3240369"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/c7cc87a147586fb2a06a24c17449eacd"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/3240369.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/3240369.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/c7cc87a147586fb2a06a24c17449eacd" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

@@ -1,0 +1,27 @@
+---
+title: "La articulación de las prescripciones emocionales, las condiciones laborales y los sentidos profesionales en el trabajo emocional cotidiano que realizan docentes en escuelas públicas vulnerables. Un estudio cualitativo complejo multi componencial"
+date: "2024-01-01"
+author: "Rodrigo Cornejo"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-34"
+departamento: "Psicología"
+coinvestigadores: "Christian Miranda & Jesus Redondo"
+categories: ["Fondecyt Regular"]
+keywords: ["TRABAJO DOCENTE TRABAJO EMOCIONAL ETNOGRAFIA DEL TRABAJO DOCENTE"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240155"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/867d44fcd5c60745f2fd76ad0e738d65"
+about:
+  template: marquee
+---
+
+## Abstract
+
+::: {.abstract-embed}
+<iframe src="abstracts/1240155.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 8px;"></iframe>
+
+<p class="abstract-fallback">Si el abstract no se visualiza, <a href="abstracts/1240155.pdf" target="_blank">ábrelo en una nueva pestaña</a> o <a href="https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/867d44fcd5c60745f2fd76ad0e738d65" target="_blank">descárgalo desde ANID</a>.</p>
+:::
+

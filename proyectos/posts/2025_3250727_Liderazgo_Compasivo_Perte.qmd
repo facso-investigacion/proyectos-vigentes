@@ -1,0 +1,15 @@
+---
+title: "Liderazgo Compasivo: Pertenencia Y Bienestar Para La Ninez Migrante En Centros De Educacion Inicial En Chile"
+date: "2025-01-01"
+author: "Daniela Alejandra Figueroa Moya"
+departamento: "Educación"
+categories: ["Fondecyt Postdoctorado"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3250727"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/df5f1e44c7b831b6c7d8d2b6a76df6ed"
+about:
+  template: marquee
+---

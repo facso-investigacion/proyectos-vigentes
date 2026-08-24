@@ -1,0 +1,17 @@
+---
+title: "Memorias en disputa sobre el Levantamiento Social del 2019 en Chile y los sentidos que construyen en torno a los DDHH"
+date: "2026-01-01"
+author: "Isabel Piper"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-86"
+departamento: "Psicología"
+coinvestigadores: "Caterine Galaz"
+categories: ["Fondecyt Regular"]
+keywords: ["MEMORIAS - DERECHOS HUMANOS - LEVANTAMIENTO SOCIAL - 18 DE OCTUBRE - POLITICAS PUBLICAS - NARRATIVAS| DERECHOS HUAMNOS| LEVANTAMIENTO SOCIAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1262149"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

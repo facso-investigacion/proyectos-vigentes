@@ -1,0 +1,15 @@
+---
+title: "Estrategia De Divulgación Sobre La Aplicación De La Normativa Ambiental Y Patrimonial En Chile"
+date: "2026-01-01"
+author: "Daniella Jofre"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-71"
+departamento: "Antropología"
+categories: ["Proyecto de Investigación"]
+concurso: "Dispositivos Para La Promoción Del Quehacer Interdisciplinario Y Transdisciplinario (Dit)"
+codigo_proyecto: "DIT2501"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "24 meses"
+about:
+  template: marquee
+---

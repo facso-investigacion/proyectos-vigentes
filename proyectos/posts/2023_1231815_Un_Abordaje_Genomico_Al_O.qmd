@@ -1,0 +1,15 @@
+---
+title: "Un Abordaje Genomico Al Origen Continuidad E Interacciones De Las Poblaciones Arcaicas Costeras Del Norte Arido De Chile"
+date: "2023-01-01"
+author: "Mauricio Moraga"
+departamento: "Antropología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231815"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/30bc26f56d37a5a7066bc819dc68220e"
+about:
+  template: marquee
+---

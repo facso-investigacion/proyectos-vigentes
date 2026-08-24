@@ -1,0 +1,16 @@
+---
+title: "Barreras de género para la práctica de actividad física entre mujeres de bajos recursos. Estudio cualitativo para el diseño  de recomendaciones culturalmente pertinentes"
+date: "2024-01-01"
+author: "Carolina Franch"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-4"
+departamento: "Antropología"
+categories: ["Proyecto de Investigación"]
+keywords: ["MUJERES| ESTUDIOS INTERDISCIPLINARIOS| ACTIVIDAD F| MUJERES| ESTUDIOS INTERDISCIPLINARIOS| ACTIVIDAD F"]
+concurso: "Fonis"
+codigo_proyecto: "SA24I0014"
+fecha_inicio: "2024"
+fecha_termino: "2026"
+duracion: "24 meses"
+about:
+  template: marquee
+---

@@ -1,0 +1,15 @@
+---
+title: "?Que Se Premia Cuando Se Premia? Micropoliticas Del Merecimiento En Educacion"
+date: "2024-01-01"
+author: "Camila Patricia Moyano Davila"
+departamento: "Sociología"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240606"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/36be8ad052c2890dd513d8b727e1152a"
+about:
+  template: marquee
+---
