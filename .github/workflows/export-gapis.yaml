@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'output/proyectos_vigentes.csv'
+  workflow_dispatch:
 
 jobs:
   export:
