@@ -1,0 +1,16 @@
+---
+title: "Diversidad cultural en el aula de matemáticas: Un análisis desde la Etnomatemática y sus juegos de lenguaje"
+date: "2023-01-01"
+author: "Miguel Friz Carrillo"
+coinvestigadores: "Susan Sanhueza"
+categories: ["Fondecyt Regular"]
+keywords: ["EDUCACION MATEMATICASFORMACION INICIALINTERCULTURALIDAD"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231788"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/82d0ab54b305b4f62717c427ac3d01e0"
+about:
+  template: marquee
+---

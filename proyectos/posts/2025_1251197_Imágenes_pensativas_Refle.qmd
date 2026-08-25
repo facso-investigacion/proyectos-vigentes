@@ -1,0 +1,16 @@
+---
+title: "Imágenes pensativas Reflexividad y memoria en el arte de la loza policromada de Santiago y Talagante (S.XX-XXI)"
+date: "2025-01-01"
+author: "Paulina Faba Zuleta"
+coinvestigadores: "Marisol Facuse"
+categories: ["Fondecyt Regular"]
+keywords: ["IMAGENES PENSATIVAS| LOCERIA| TALAGANTE-PENAFLOR"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251197"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/04a8d82d48c65f84698bdd87050fd5b2"
+about:
+  template: marquee
+---

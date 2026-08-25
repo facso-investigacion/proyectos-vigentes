@@ -1,0 +1,16 @@
+---
+title: "Colonialismo insular en los confines australes de América: interculturalidad, impacto y definición arqueológica de Chiloé y su jurisdicción (siglos XVI-XVIII)"
+date: "2023-01-01"
+author: "Simon Urbina Araya"
+coinvestigadores: "Carolina Belmar"
+categories: ["Fondecyt Regular"]
+keywords: ["ARQUEOLOGIA HISTORICARELACIONES INTERCULTURALESCOLONIALISMO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1230727"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/763f1c55b1a7c24688a39a0402024414"
+about:
+  template: marquee
+---

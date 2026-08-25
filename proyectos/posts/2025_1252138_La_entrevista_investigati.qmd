@@ -1,0 +1,15 @@
+---
+title: "La entrevista investigativa de niños, niñas y adolescentes víctimas de delitos sexuales en el contexto de la implementación de la Ley de entrevista videograbada. Análisis de factores de adecuación técnica, resultados y percepciones"
+date: "2025-01-01"
+author: "Carolina Navarro Medel"
+coinvestigadores: "Claudia Capella"
+categories: ["Fondecyt Regular"]
+keywords: ["LEY 21.057| ENTREVISTA INVESTIGATIVA DE NINOS| DELITOS SEXUALES"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1252138"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

@@ -1,0 +1,16 @@
+---
+title: "Aproximación histórica al arte rupestre del valle del río Ibáñez y el área sur del lago General Carrera"
+date: "2024-01-01"
+author: "Francisca Andrea Moya Canoles"
+coinvestigadores: "Lorena Sanhueza"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["ARTE RUPESTRE HISTORIAS TECNOLOGIA"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3240255"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/06d17b3b0b52a5b4b3264e96e53def7d"
+about:
+  template: marquee
+---

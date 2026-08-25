@@ -1,0 +1,16 @@
+---
+title: "Significados de la política en los sectores populares tras el ciclo constituyente chileno de 2019-2023: analizando discursos y prácticas para comprender el lugar de la política en la vida de habitantes de territorios empobrecidos"
+date: "2024-01-01"
+author: "Juan Gabriel Fernandez Labbe"
+coinvestigadores: "Gianinna Muñoz"
+categories: ["Fondecyt Regular"]
+keywords: ["POLITICA EN SECTORES POPULARES TERRITORIOS EMPOBRECIDOS Y POBREZA SIGNIFICADOS Y PRACTICAS SOCIALES"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240294"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b6acb5d6dfcaed4b5ffad29458448548"
+about:
+  template: marquee
+---

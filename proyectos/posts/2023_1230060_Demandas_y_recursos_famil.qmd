@@ -1,0 +1,16 @@
+---
+title: "Demandas y recursos familiares, laborales y alimentarios e interfaz trabajo-hogar. Relación con el Bienestar Subjetivo de Madres y Padres de Familias con dos ingresos parentales e hijos adolescentes"
+date: "2023-01-01"
+author: "Berta Schnettler Morales"
+coinvestigadores: "Mahia Saracostti"
+categories: ["Fondecyt Regular"]
+keywords: ["DEMANDAS Y RECURSOS.CONFLICTO TRABAJO-HOGAR Y ENRIQUECIMIENTO TRABAJO-HOGAR.BIENESTAR SUBJETIVO."]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1230060"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b96b52baa374c8e168e37d96a60e51a6"
+about:
+  template: marquee
+---

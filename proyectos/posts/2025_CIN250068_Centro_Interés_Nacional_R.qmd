@@ -1,0 +1,11 @@
+---
+title: "Centro Interés Nacional Resilencia Infantil"
+date: "2025-01-01"
+author: "Francisco Aboitiz"
+coinvestigadores: "Claudia Capella"
+categories: ["Proyecto de Investigación"]
+concurso: "Centros De Investigación Y Desarrollo De Interés Nacional"
+codigo_proyecto: "CIN250068"
+about:
+  template: marquee
+---

@@ -1,0 +1,15 @@
+---
+title: "Configuraciones socio-subjetivas en torno al cuidado de la salud mental estudiantil: afecciones, interdependencias y mediaciones técnicas en universidades chilenas"
+date: "2026-01-01"
+author: "Angela Cifuentes Astete"
+coinvestigadores: "Svenska Arensburg"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["SALUD MENTAL - MALESTAR SOCIO-SUBJETIVO - AFECCIONES - USOS DIAGNOSTICOS| TRAMAS DE INTERDEPENDENCIAS - ACTANTES UNIVERSITARIOS - CUIDADO A LA SALUD MENTAL| MEDIACIONES SOCIOTECNICAS - AUTOMEDICACION Y TECNOLOGIAS DIGITALES"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3260681"
+fecha_inicio: "2026"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

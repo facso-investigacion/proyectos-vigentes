@@ -1,0 +1,14 @@
+---
+title: "SOCIOTECHNOLOGIES OF LITHIUM"
+date: "2024-01-01"
+author: "Sebastian Herrera Leon"
+coinvestigadores: "Fernando Campos"
+categories: ["Anillos"]
+concurso: "Anillos de Investigación"
+codigo_proyecto: "ATE240017"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+about:
+  template: marquee
+---

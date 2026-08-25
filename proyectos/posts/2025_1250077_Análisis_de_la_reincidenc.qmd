@@ -1,0 +1,15 @@
+---
+title: "Análisis de la reincidencia delictual en Chile: un estudio multidimensional, prospectivo y nacional"
+date: "2025-01-01"
+author: "Guillermo Sanhueza Olivares"
+coinvestigadores: "Antonieta Urquieta"
+categories: ["Fondecyt Regular"]
+keywords: ["REINCIDENCIA| COVARIABLES INDIVIDUALES - INSTITUCIONALES Y TERRITORIALES| ESTUDIO NACIONAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250077"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+about:
+  template: marquee
+---

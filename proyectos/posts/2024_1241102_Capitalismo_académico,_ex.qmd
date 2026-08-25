@@ -1,0 +1,16 @@
+---
+title: "Capitalismo académico, extensión y vinculación con el medio en las universidades chilenas: un enfoque de cambio organizacional"
+date: "2024-01-01"
+author: "Julio Roberto Labrana Vargas"
+coinvestigadores: "Anahi Urquiza"
+categories: ["Fondecyt Regular"]
+keywords: ["EDUCACION SUPERIOR VINCULACION CON EL MEDIO CAMBIO ORGANIZACIONAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1241102"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/e4c6f1ab57b0de434308a9980bdaa1eb"
+about:
+  template: marquee
+---

@@ -1,0 +1,15 @@
+---
+title: "Centro de Investigación Avanzada en Educación- CIAE"
+date: "2025-01-01"
+author: "Juan Valenzuela Barros"
+coinvestigadores: "Cristian Bellei"
+categories: ["Proyecto de Investigación"]
+keywords: ["TRANSFORMACI| CALIDAD EDUCACIONAL| EQUIDAD EDUCATIVA| EDUCACI| INTELIGENCIA ARTIFICIAL (IA)"]
+concurso: "Centros De Investigación Aplicada"
+codigo_proyecto: "CIA250005"
+fecha_inicio: "2025"
+fecha_termino: "2030"
+duracion: "60 meses"
+about:
+  template: marquee
+---

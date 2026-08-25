@@ -1,0 +1,15 @@
+---
+title: "?Cuales Son Los Procesos De Articulacion En Los Conocimientos Y Didactica Disciplinar En La Formacion Del Profesorado De Educacion Fisica? Impacto De Los Estandares De La Profesion Docente En Los Saberes Disciplinares A Traves De Una Evaluacion Reciproca"
+date: "2024-01-01"
+author: "Sebastian Enrique Pena Troncoso"
+coinvestigadores: "Sergio Toro"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240883"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/54d8e7968e8ae6a52d1de5419bea10ab"
+about:
+  template: marquee
+---

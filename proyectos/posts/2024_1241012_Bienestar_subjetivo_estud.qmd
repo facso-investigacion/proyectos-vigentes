@@ -1,0 +1,16 @@
+---
+title: "Bienestar subjetivo estudiantil universitario: ideas de futuros perdidos e ideas hauntológicas en contextos de transformación del trabajo humano"
+date: "2024-01-01"
+author: "Sandra Elena Iturrieta Olivares"
+coinvestigadores: "Carlos Andrade"
+categories: ["Fondecyt Regular"]
+keywords: ["BIENESTAR SUBJETIVO ESTUDIANTIL UNIVERSITARIO Y DISPOSICIONES SUBJETIVAS HACIA EL FUTURO PROFESIONAL IDEAS DE FUTUROS E  IDEAS HAUNTOLOGICAS DE EXITO Y FELICIDAD TRANSMITIDAS DE GENERACION A GENERACION DESARROLLO DE HABILIDADES PROFESIONALES EN CONTEXTOS DE TRANSFORMACIONES DEL TRABAJO PROFESIONAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1241012"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/aa506881923122ea24b9863136240092"
+about:
+  template: marquee
+---

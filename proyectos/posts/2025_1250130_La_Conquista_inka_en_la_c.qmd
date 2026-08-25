@@ -1,0 +1,16 @@
+---
+title: "La Conquista inka en la cordillera Andina de Chile Central"
+date: "2025-01-01"
+author: "Luis Cornejo Bustamante"
+coinvestigadores: "Lorena Sanhueza"
+categories: ["Fondecyt Regular"]
+keywords: ["INKA| CORDILLERA ANDINA| CHILE CENTRAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250130"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/97ecf781b2d8d41fa1988c91a3784625"
+about:
+  template: marquee
+---

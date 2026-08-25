@@ -1,0 +1,16 @@
+---
+title: "Tecnologías digitales, bienestar subjetivo y cyberbullying en la experiencia escolar. Un estudio con diseño mixto para la construcción de recomendaciones para la educación del siglo XXI"
+date: "2024-01-01"
+author: "Patricio Alejandro Cabello Cadiz"
+coinvestigadores: "Mauricio López"
+categories: ["Fondecyt Regular"]
+keywords: ["TECNOLOGIAS DIGITALES BIENESTAR SUBJETIVO EXPERIENCIA ESCOLAR"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1241568"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/e41c920f827ea11de4d157663dcb3b27"
+about:
+  template: marquee
+---

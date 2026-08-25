@@ -1,0 +1,16 @@
+---
+title: "Exploración de las bases neuroanatómicas de la alteración del insight en la enfermedad de Alzheimer"
+date: "2025-01-01"
+author: "Carlos Munoz Neira"
+coinvestigadores: "Vanetza Quezada"
+categories: ["Fondecyt Postdoctorado"]
+keywords: ["INISGHT| ENFERMEDAD DE ALZHEIMER| DETERIORO COGNITIVO LEVE"]
+concurso: "Fondecyt Postdoctorado"
+codigo_proyecto: "3250704"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/af092405534ef2cb65a5327d5889279d"
+about:
+  template: marquee
+---

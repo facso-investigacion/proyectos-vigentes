@@ -1,0 +1,16 @@
+---
+title: "Patronazgo político local en Chile. Características, funciones y efectos de los nombramientos discrecionales en el sistema político"
+date: "2025-01-01"
+author: "Emilio Moya Diaz"
+coinvestigadores: "Emmanuelle Barozet"
+categories: ["Fondecyt Regular"]
+keywords: ["PATRONAZGO| INSTITUCIONES INFORMALES| LEALTAD POLITICA"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251786"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/97506a550c2a4cd76cf10b43c06ea946"
+about:
+  template: marquee
+---

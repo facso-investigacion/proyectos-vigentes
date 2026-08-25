@@ -1,0 +1,15 @@
+---
+title: "Ensamblajes Socio Ecologicos Para Comprender La Inactividad Fisica Las Practicas Corporales Y Deportivas En Las Escuelas Publicas Y Privadas De Chile"
+date: "2023-01-01"
+author: "Rodrigo Soto Lagos"
+coinvestigadores: "Sergio Toro"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231837"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b91c1a068d1d1226d341142ddc7cbc41"
+about:
+  template: marquee
+---

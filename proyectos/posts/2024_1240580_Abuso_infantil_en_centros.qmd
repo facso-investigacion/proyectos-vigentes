@@ -1,0 +1,16 @@
+---
+title: "Abuso infantil en centros residenciales de protección a la infancia del norte de Chile: Análisis de los componentes institucionales y curso de vida de las víctimas"
+date: "2024-01-01"
+author: "Cristian Gustavo Pinto Cortez"
+coinvestigadores: "Jenniffer Miranda"
+categories: ["Fondecyt Regular"]
+keywords: ["ABUSO INSTITUCIONAL INFANTIL SISTEMAS DE PROTECCION INFANTO-JUVENIL VICTIMIZACION INFANTO-JUVENIL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240580"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/77ba3f7d2ec15f3133737fe76f1f2146"
+about:
+  template: marquee
+---

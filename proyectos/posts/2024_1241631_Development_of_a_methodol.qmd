@@ -1,0 +1,16 @@
+---
+title: "Development of a methodological framework based on panarchy theory to assess water security in Chilean river basins in the context of climate change"
+date: "2024-01-01"
+author: "Rodrigo Fuster Gomez"
+coinvestigadores: "Anahi Urquiza"
+categories: ["Fondecyt Regular"]
+keywords: ["WATER SECURITY PANARCHY ADAPTIVE COMPLEX SYSTEMS"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1241631"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/504d5e00afaeec54257df989698ac2c3"
+about:
+  template: marquee
+---

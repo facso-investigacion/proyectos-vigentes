@@ -1,0 +1,14 @@
+---
+title: "Millennium Nucleus on community-based research and sexual health inequalities – DIBASS"
+date: "2025-01-01"
+author: "Valeria Stuardo Avila"
+coinvestigadores: "Javiera Cubillos"
+categories: ["Núcleos Milenio"]
+concurso: "Núcleo Milenio En Ciencias Sociales"
+codigo_proyecto: "NCS2025\_67"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

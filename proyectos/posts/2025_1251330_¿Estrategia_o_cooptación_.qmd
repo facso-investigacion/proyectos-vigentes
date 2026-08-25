@@ -1,0 +1,16 @@
+---
+title: "¿Estrategia o cooptación? Modos, resultados y consecuencias de la institucionalización de movimientos sociales en Chile (2014-2026)"
+date: "2025-01-01"
+author: "Juan Rodriguez Lopez"
+coinvestigadores: "Nicolás Angelcos"
+categories: ["Fondecyt Regular"]
+keywords: ["MOVIMIENTOS SOCIALES| INSTITUCIONALIZACION| INSTITUCIONALIDAD POLITICA"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251330"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/c6c8c292afa1a8cbbca40c95be82c799"
+about:
+  template: marquee
+---

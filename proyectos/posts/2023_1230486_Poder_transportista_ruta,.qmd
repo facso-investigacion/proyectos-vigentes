@@ -1,0 +1,16 @@
+---
+title: "Poder transportista: ruta, frontera y espacio transnacional entre Bolivia y Chile (1980 al presente)"
+date: "2023-01-01"
+author: "Alejandro Garces"
+coinvestigadores: "Héctor Morales"
+categories: ["Fondecyt Regular"]
+keywords: ["TRANSPORTEFRONTERAMOVILIDAD"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1230486"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/253b19d832e7c41d38a19294c5be2fc8"
+about:
+  template: marquee
+---

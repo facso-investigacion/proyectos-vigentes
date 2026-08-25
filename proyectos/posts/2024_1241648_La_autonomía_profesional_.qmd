@@ -1,0 +1,16 @@
+---
+title: "La autonomía profesional vivida por las educadoras de párvulos: hacia un modelo explicativo situacional del caso chileno"
+date: "2024-01-01"
+author: "Marcela Renee Pardo Quinones"
+coinvestigadores: "Cynthia Adlerstein"
+categories: ["Fondecyt Regular"]
+keywords: ["AUTONOMIA PROFESIONAL EDUCADORAS DE PARVULOS ANALISIS SITUACIONAL"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1241648"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a395f32a27865e3b4135027f7503be14"
+about:
+  template: marquee
+---

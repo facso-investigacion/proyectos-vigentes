@@ -1,0 +1,14 @@
+---
+title: "Culturas Musicales y Sonoras"
+date: "2025-01-01"
+author: "Christian Spencer Espinosa"
+coinvestigadores: "Carla Maria Pinochet Cobos"
+categories: ["Núcleos Milenio"]
+concurso: "Núcleo Milenio En Ciencias Sociales"
+codigo_proyecto: "NCS2025\_65"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+about:
+  template: marquee
+---

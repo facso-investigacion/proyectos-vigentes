@@ -1,0 +1,16 @@
+---
+title: "El compromiso escolar como mediador de la relación entre habilidades socioemocionales, clima escolar y logro escolar: Un análisis multinivel de sendero"
+date: "2023-01-01"
+author: "Jorge Varela Torres"
+coinvestigadores: "Mahia Saracostti"
+categories: ["Fondecyt Regular"]
+keywords: ["COMPROMISO ESCOLARCLIMA ESCOLARHABILIDADES SOCIOEMOCIONALES"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1231271"
+fecha_inicio: "2023"
+fecha_termino: "2027"
+duracion: "48 meses"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/9469141b5cabd0e396801600f28ca997"
+about:
+  template: marquee
+---

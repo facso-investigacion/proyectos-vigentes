@@ -1,0 +1,15 @@
+---
+title: "SMARTDIAGO: Sistema de Apoyo Inteligente para el Diagnostico Remoto de Enfermedades Musculoesqueléticas"
+date: "2025-01-01"
+author: "Mauricio Cerda Villablanca"
+coinvestigadores: "Caterine Galaz"
+categories: ["Proyecto de Investigación"]
+keywords: ["ENFERMEDADES MUSCULOESQUEL| INTELIGENCIA ARTIFICIAL| TELEMEDICINA| ENFERMEDADES MUSCULOESQUEL| INTELIGENCIA ARTIFICIAL| TELEMEDICINA"]
+concurso: "Idea I+D"
+codigo_proyecto: "IT25I0174"
+fecha_inicio: "2025"
+fecha_termino: "2027"
+duracion: "24 meses"
+about:
+  template: marquee
+---
