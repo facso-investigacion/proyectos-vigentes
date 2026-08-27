@@ -1,0 +1,14 @@
+---
+title: "Núcleo Milenio Tecnociencia Ciudadana para la transformación socioambiental (CITEC)."
+date: "2024-01-01"
+author: "Sebastian Ureta Icaza"
+coinvestigadores: "Francisco Araos"
+categories: ["Núcleos Milenio"]
+concurso: "Núcleo Milenio En Ciencias Sociales"
+codigo_proyecto: "NCS2024\_006"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+about:
+  template: marquee
+---
