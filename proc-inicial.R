@@ -35,7 +35,10 @@ data_proyectos <- data_proyectos |>
   filter(codigo_proyecto != "1220139")
 
 proyectos_vigentes <- data_proyectos |> 
-  filter(en_ejecucion == "Sí" & institucion != "FACSO" & investigador_responsable != "Externo")
+  filter(en_ejecucion == "Sí" & institucion != "FACSO" & !is.na(rut_ir))
+
+proyectos_vigentes_coi <- data_proyectos |> 
+  filter(en_ejecucion == "Sí" & institucion != "FACSO" & is.na(rut_ir))
   
 consolidado <- consolidado |> 
   select("codigo_proyecto", 
