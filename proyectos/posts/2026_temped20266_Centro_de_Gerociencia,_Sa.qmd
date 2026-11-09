@@ -1,0 +1,15 @@
+---
+title: "Centro de Gerociencia, Salud Mental y Metabolismo (GERO)"
+date: "2026-01-01"
+author: "Daniela Thumala"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-5"
+departamento: "Psicología"
+categories: ["Proyecto de Investigación"]
+concurso: "Investigación Asociativa - Desafíos País 2026"
+codigo_proyecto: "temp\_ed\_2026\_6"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "21 meses"
+about:
+  template: marquee
+---

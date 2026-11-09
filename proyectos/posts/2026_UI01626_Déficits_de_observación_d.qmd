@@ -1,0 +1,15 @@
+---
+title: "Déficits de observación de la complejidad social en la intervención social: hacia un modelo sistémico de análisis en contextos territoriales altamente complejos"
+date: "2026-01-01"
+author: "Johanna Madrigal"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-108"
+departamento: "Trabajo Social"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Inicia"
+codigo_proyecto: "UI-016/26"
+fecha_inicio: "2026"
+fecha_termino: "2028"
+duracion: "24 meses"
+about:
+  template: marquee
+---

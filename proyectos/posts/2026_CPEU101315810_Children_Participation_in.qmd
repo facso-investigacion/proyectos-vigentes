@@ -1,0 +1,16 @@
+---
+title: "Children Participation in the European Union: Approaches and Contributions to Democratic Strengthening in Chile"
+date: "2026-01-01"
+author: "Mahia Saracostti"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-96"
+departamento: "Trabajo Social"
+coinvestigadores: "Alejandro Marambio & Camilo Morales"
+categories: ["Proyecto de Investigación"]
+concurso: "Jean Monnet Actions In The Field Of Higher Education"
+codigo_proyecto: "CP-EU – 101315810"
+fecha_inicio: "2026"
+fecha_termino: "2029"
+duracion: "36 meses"
+about:
+  template: marquee
+---

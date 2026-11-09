@@ -1,0 +1,15 @@
+---
+title: "Comprender lo inesperado: Estudio Longitudinal de las Interacciones Educativas entre docentes nóveles y experimentados que se especializan en la enseñanza de la matemática y sus estudiantes de primaria desde la perspectiva de las contingencias"
+date: "2026-01-01"
+author: "Christian Miranda"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-3"
+departamento: "Educación"
+categories: ["Proyecto de Investigación"]
+concurso: "U-Apoya"
+codigo_proyecto: "ENL37/26"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "12 meses"
+about:
+  template: marquee
+---

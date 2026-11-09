@@ -1,0 +1,16 @@
+---
+title: "Centro de Estudios de Cohesión y Conflicto Social"
+date: "2026-01-01"
+author: "Emmanuelle Barozet"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-33"
+departamento: "Sociología"
+coinvestigadores: "Daniel Miranda, Juan Carlos Castillo, Nicolás Angelcos & Pablo Pérez"
+categories: ["Proyecto de Investigación"]
+concurso: "Investigación Asociativa - Desafíos País 2026"
+codigo_proyecto: "FIU-138310/COES-2026"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "21 meses"
+about:
+  template: marquee
+---

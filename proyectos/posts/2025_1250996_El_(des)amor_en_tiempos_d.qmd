@@ -4,7 +4,7 @@ date: "2025-01-01"
 author: "Camilo Sembler"
 author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-114"
 departamento: "Sociología"
-coinvestigadores: "Julieta Palma"
+coinvestigadores: "Camila Patricia Moyano Davila & Julieta Palma"
 categories: ["Fondecyt Regular"]
 keywords: ["SEPARACIONES| FAMILIAS| INJUSTICIAS COTIDIANAS"]
 concurso: "Fondecyt Regular"
