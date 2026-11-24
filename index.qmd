@@ -23,6 +23,8 @@ listing:
     concurso: "Concurso"
     departamento: "Departamento"
     coinvestigadores: "Co-investigadores FACSO"
+shortcodes:
+  - ultima-actualizacion.lua
 format:
   html:
     css: proyectos-listing.css
@@ -34,4 +36,8 @@ format:
 En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. Se pueden aplicar filtros por Año de adjudicación, Concurso y Departamento del IR. 
 
 ::: {#proyectos-list}
+:::
+
+::: {.actualizacion-datos}
+Última actualización de los datos: {{< ultima-actualizacion >}}
 :::

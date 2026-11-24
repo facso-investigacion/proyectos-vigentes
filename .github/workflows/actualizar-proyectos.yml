@@ -19,6 +19,8 @@ jobs:
       # 1. Clonar el repositorio
       - name: Checkout repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # historial completo: el footer usa la fecha del último commit del .rdata
 
       # 2. Instalar R
       - name: Instalar R
@@ -60,6 +62,8 @@ jobs:
       # 8. Renderizar el sitio → docs/
       - name: Paso 4 - Renderizar sitio Quarto
         run: quarto render
+        env:
+          TZ: America/Santiago
 
       # 9. Commit y push de los archivos generados
       - name: Paso 5 - Commit y push

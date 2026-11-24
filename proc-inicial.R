@@ -76,3 +76,11 @@ proyectos_vigentes <- proyectos_vigentes %>%
 # Exportar a CSV para que yo lo pueda leer
 write.csv(proyectos_vigentes, "output/proyectos_vigentes.csv", row.names = FALSE)
 
+write_xlsx(proyectos_vigentes_coi, "output/proyectos_vigentes_cois.xlsx")
+
+
+# =================================================================================== #
+
+# COIS proyectos vigentes
+
+
