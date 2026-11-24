@@ -1,0 +1,15 @@
+---
+title: "Pilotaje de un modelo de capacitación para la implementación de programas ambulatorios de intervención reparatoria para niños, niñas y adolescentes que han suido vulnerados en sus derechos"
+date: "2026-01-01"
+author: "Claudia Capella"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-55"
+departamento: "Psicología"
+categories: ["Proyecto de Investigación"]
+concurso: "Desafíos Públicos: Innovación Para Mejores Políticas Públicas"
+codigo_proyecto: "temp\_ed\_2026\_31"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "12 meses"
+about:
+  template: marquee
+---

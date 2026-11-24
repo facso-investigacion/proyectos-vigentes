@@ -1,0 +1,15 @@
+---
+title: "Estrategias de Planificación territorial y Evacuación en Zonas de Interfaz Urbano-Rural afectadas por Incendios Forestales"
+date: "2026-01-01"
+author: "Gabriela Azocar"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-46"
+departamento: "Trabajo Social"
+categories: ["Proyecto de Investigación"]
+concurso: "Dispositivos Para La Promoción Del Quehacer Interdisciplinario Y Transdisciplinario (Dit)"
+codigo_proyecto: "temp\_ed\_2024\_2"
+fecha_inicio: "2026"
+fecha_termino: "2027"
+duracion: "12 meses"
+about:
+  template: marquee
+---

@@ -4,7 +4,7 @@ date: "2024-01-01"
 author: "Pablo Perez"
 author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-18"
 departamento: "Sociología"
-coinvestigadores: "Julieta Palma"
+coinvestigadores: "Camilo Sembler, Julieta Palma, Nicolás Angelcos & Sofía Donoso"
 categories: ["Núcleos Milenio"]
 concurso: "Núcleo Milenio En Ciencias Sociales"
 codigo_proyecto: "NCS2024\_019"
