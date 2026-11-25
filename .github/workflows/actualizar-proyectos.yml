@@ -71,8 +71,10 @@ jobs:
           git config --local user.name  "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add output/proyectos_vigentes.csv
+          git add output/proyectos_vigentes_cois.csv
           git add proyectos/proyectos.bib
           git add proyectos/posts/
+          git add coinvestigaciones/
           git add docs/
           git diff --staged --quiet || git commit -m "Actualización automática [skip ci]"
           git push

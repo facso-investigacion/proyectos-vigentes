@@ -9,6 +9,7 @@ codigo_proyecto: "3250727"
 fecha_inicio: "2025"
 fecha_termino: "2028"
 duracion: "36 meses"
+orden: "f1c4"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/df5f1e44c7b831b6c7d8d2b6a76df6ed"
 about:
   template: marquee

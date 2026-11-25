@@ -1,0 +1,19 @@
+---
+title: "Comparación de estrategias de asesoramiento para la implementación de una intervención focalizada transdiagnóstica en salud mental escolar: Un estudio híbrido de implementación y efectividad en escuelas públicas de la Región Metropolitana"
+date: "2026-01-01"
+author: "Vanetza Quezada"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-87"
+departamento: "Psicología"
+investigador_responsable: "Rodrigo Rojas-Andrade"
+categories: ["Fondecyt Regular"]
+keywords: ["SALUD MENTAL ESCOLAR| CIENCIA DE IMPLEMENTACION| ENFOQUE TRANSDIAGNOSTICO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1260771"
+fecha_inicio: "2026"
+fecha_termino: "2030"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+about:
+  template: marquee
+---

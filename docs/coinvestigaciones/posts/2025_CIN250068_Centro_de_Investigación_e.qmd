@@ -1,0 +1,19 @@
+---
+title: "Centro de Investigación e Innovación en Niñez, Adolescencia, Resiliencia y Adversidad (IINARA)"
+date: "2025-01-01"
+author: "Claudia Capella"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-55"
+departamento: "Psicología"
+investigador_responsable: "Francisco Aboitiz"
+categories: ["Proyecto de Investigación"]
+keywords: ["NI| RESILIENCIA| NEUROCIENCIA| SALUD P| ADVERSIDAD| IMPACTO SOCIAL| BIOMARCADORES| NI| RESILIENCIA| NEUROCIENCIA| SALUD P| ADVERSIDAD| IMPACTO SOCIAL| BIOMARCADORES| NI| RESILIENCIA| NEUROCIENCIA| SALUD P| ADVERSIDAD| IMPACTO SOCIAL| BIOMARCADORES"]
+concurso: "Centros De Investigación Y Desarrollo De Interés Nacional"
+codigo_proyecto: "CIN250068"
+fecha_inicio: "2025"
+fecha_termino: "2030"
+duracion: "60 meses"
+ir_externo: "true"
+orden: "f1c8"
+about:
+  template: marquee
+---

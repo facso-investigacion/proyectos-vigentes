@@ -1,0 +1,20 @@
+---
+title: "REPRESENTACIONES SUBJETIVAS DE LA (IN)JUSTICIA SOCIAL Y TERRITORIAL EN EL SUR AUSTRAL DE CHILE"
+date: "2025-01-01"
+author: "Emmanuelle Barozet"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-33"
+departamento: "Sociología"
+investigador_responsable: "Oscar Mac-Clure"
+categories: ["Fondecyt Regular"]
+keywords: ["DESIGUALDAD SOCIAL| JUSTICIA SOCIAL| TERRITORIO"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250872"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/9c78cc492d287f78f2d28d05f24e0691"
+about:
+  template: marquee
+---

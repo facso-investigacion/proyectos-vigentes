@@ -81,6 +81,36 @@ write_xlsx(proyectos_vigentes_coi, "output/proyectos_vigentes_cois.xlsx")
 
 # =================================================================================== #
 
-# COIS proyectos vigentes
+# COIS proyectos vigentes (IR externo a FACSO, con co-investigadores/as FACSO)
 
+# El IR es externo, por lo que no tiene departamento: se usa el de los/as
+# co-investigadores/as, tomado de su proyecto más reciente como IR.
+deptos <- data_proyectos |>
+  mutate(across(c(rut_ir, departamento_ir), as.character)) |>
+  filter(!is.na(rut_ir), !is.na(departamento_ir)) |>
+  arrange(desc(as.numeric(as.character(anio_concurso)))) |>
+  distinct(rut_ir, .keep_all = TRUE)
 
+buscar_depto <- function(...) {
+  ruts <- na.omit(as.character(c(...)))
+  d    <- unique(na.omit(deptos$departamento_ir[match(ruts, deptos$rut_ir)]))
+  if (length(d) == 0) NA_character_ else paste(d, collapse = " / ")
+}
+
+# Se exportan solo las columnas que usa la página (sin RUT)
+cois_pagina <- proyectos_vigentes_coi |>
+  left_join(consolidado, by = "codigo_proyecto") |>
+  rowwise() |>
+  mutate(
+    departamento_ir = buscar_depto(rut_coi_1, rut_coi_2, rut_coi_3, rut_coi_4),
+    coi_1 = aplicar_nombre_social(rut_coi_1, coi_1),
+    coi_2 = aplicar_nombre_social(rut_coi_2, coi_2),
+    coi_3 = aplicar_nombre_social(rut_coi_3, coi_3),
+    coi_4 = aplicar_nombre_social(rut_coi_4, coi_4)
+  ) |>
+  ungroup() |>
+  select(codigo_proyecto, titulo, institucion, concurso, investigador_responsable,
+         departamento_ir, duracion, anio_concurso, fecha_inicio, fecha_termino,
+         palabras_claves, coi_1, coi_2, coi_3, coi_4, abstract)
+
+write.csv(cois_pagina, "output/proyectos_vigentes_cois.csv", row.names = FALSE)

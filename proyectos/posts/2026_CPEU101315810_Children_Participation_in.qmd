@@ -11,6 +11,7 @@ codigo_proyecto: "CP-EU – 101315810"
 fecha_inicio: "2026"
 fecha_termino: "2029"
 duracion: "36 meses"
+orden: "f0c8"
 about:
   template: marquee
 ---

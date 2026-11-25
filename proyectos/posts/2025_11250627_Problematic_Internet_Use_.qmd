@@ -11,6 +11,7 @@ codigo_proyecto: "11250627"
 fecha_inicio: "2025"
 fecha_termino: "2028"
 duracion: "36 meses"
+orden: "f1c3"
 url_abstract: "https://post.conicyt.cl/frontend.php/version/66455fb0d64ab94c151a1e9e/download/adjuntos?archivo=[73755278-375c-45d7-83b4-25f21521e46b]AbstractIniEng.pdf"
 about:
   template: marquee

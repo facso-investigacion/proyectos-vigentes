@@ -13,6 +13,10 @@
 archivo_csv    <- "output/proyectos_vigentes.csv"   # Ruta al CSV de entrada
 archivo_bib    <- "proyectos/proyectos.bib"        # Ruta al .bib de salida
 
+# Coinvestigaciones (IR externo)
+archivo_csv_coi <- "output/proyectos_vigentes_cois.csv"
+archivo_bib_coi <- "coinvestigaciones/coinvestigaciones.bib"
+
 # Si tu CSV tiene una columna llamada "abstract" con URLs, se incluirá
 # automáticamente como campo url = {...} en cada entrada
 
@@ -42,13 +46,15 @@ extract_year <- function(x) {
 make_key <- function(nombre, anio, codigo) {
   partes   <- strsplit(trimws(nombre), "\\s+")[[1]]
   apellido <- gsub("[^a-zA-Z]", "", tail(partes, 1))
-  if (apellido == "") apellido <- "Unknown"
+  if (length(apellido) == 0 || apellido == "") apellido <- "Unknown"
   codigo_clean <- gsub("[^a-zA-Z0-9]", "", codigo)
   paste0(apellido, anio, "_", codigo_clean)
 }
 
 #' Construye una entrada @techreport completa
-make_entry <- function(row) {
+#' Si ir_externo = TRUE, los/as investigadores/as FACSO (coi) van como author y
+#' el IR externo como editor (puede faltar)
+make_entry <- function(row, ir_externo = FALSE) {
 
   # Campos principales
   titulo   <- clean_tex(row[["titulo"]])
@@ -62,6 +68,12 @@ make_entry <- function(row) {
   cois <- c(row[["coi_1"]], row[["coi_2"]], row[["coi_3"]], row[["coi_4"]])
   cois <- Filter(function(x) !is.na(x) && x != "", cois)
   cois <- sapply(cois, clean_tex)
+
+  if (ir_externo) {
+    ir    <- autor
+    autor <- paste(cois, collapse = " and ")
+    cois  <- ir[ir != ""]
+  }
 
   # Fechas y duración
   year_inicio <- extract_year(row[["fecha_inicio"]])
@@ -105,6 +117,11 @@ make_entry <- function(row) {
   if (codigo != "")
     lines <- c(lines, paste0("  number       = {", codigo, "},"))
 
+  # Institución que financia (se usa para ordenar el listado)
+  financia <- clean_tex(row[["institucion"]])
+  if (financia != "")
+    lines <- c(lines, paste0("  funder       = {", financia, "},"))
+
   if (year_inicio != "")
     lines <- c(lines, paste0("  date-start   = {", year_inicio, "},"))
 
@@ -128,51 +145,64 @@ make_entry <- function(row) {
 }
 
 
-# ==== EJECUCIÓN ==============================================================
+# ==== GENERACIÓN DEL .BIB =====================================================
 
-cat("Leyendo CSV:", archivo_csv, "\n")
-df <- read.csv(archivo_csv, stringsAsFactors = FALSE, encoding = "UTF-8")
+generar_bib <- function(archivo_csv, archivo_bib, ir_externo = FALSE) {
+  cat("Leyendo CSV:", archivo_csv, "\n")
+  df <- read.csv(archivo_csv, stringsAsFactors = FALSE, encoding = "UTF-8")
 
-# Filtrar registros sin título
-df <- df[!is.na(df$titulo) & df$titulo != "", ]
-cat("Proyectos con título:", nrow(df), "\n")
+  # Filtrar registros sin título
+  df <- df[!is.na(df$titulo) & df$titulo != "", ]
+  cat("Proyectos con título:", nrow(df), "\n")
 
-# Informar cuántos tienen URL de abstract
-if ("abstract" %in% names(df)) {
-  n_url <- sum(!is.na(df$abstract) & df$abstract != "")
-  cat("Proyectos con URL de abstract:", n_url, "\n")
-}
-
-# Generar entradas, resolviendo claves duplicadas
-entradas      <- vector("character", nrow(df))
-claves_usadas <- list()
-
-for (i in seq_len(nrow(df))) {
-  row     <- df[i, ]
-  entrada <- make_entry(row)
-
-  # Resolver duplicados de clave
-  key_base <- make_key(
-    clean_tex(row[["investigador_responsable"]]),
-    extract_year(row[["anio_concurso"]]),
-    clean_tex(row[["codigo_proyecto"]])
-  )
-
-  if (!is.null(claves_usadas[[key_base]])) {
-    claves_usadas[[key_base]] <- claves_usadas[[key_base]] + 1
-    key_nuevo <- paste0(key_base, "_", claves_usadas[[key_base]])
-    entrada   <- sub(paste0("\\{", key_base, ","),
-                     paste0("{", key_nuevo, ","), entrada, fixed = TRUE)
-  } else {
-    claves_usadas[[key_base]] <- 0
+  # Informar cuántos tienen URL de abstract
+  if ("abstract" %in% names(df)) {
+    n_url <- sum(!is.na(df$abstract) & df$abstract != "")
+    cat("Proyectos con URL de abstract:", n_url, "\n")
   }
 
-  entradas[i] <- entrada
+  # Generar entradas, resolviendo claves duplicadas
+  entradas      <- vector("character", nrow(df))
+  claves_usadas <- list()
+
+  for (i in seq_len(nrow(df))) {
+    row     <- df[i, ]
+    entrada <- make_entry(row, ir_externo)
+
+    # Resolver duplicados de clave
+    key_base <- make_key(
+      clean_tex(row[[if (ir_externo) "coi_1" else "investigador_responsable"]]),
+      extract_year(row[["anio_concurso"]]),
+      clean_tex(row[["codigo_proyecto"]])
+    )
+
+    if (!is.null(claves_usadas[[key_base]])) {
+      claves_usadas[[key_base]] <- claves_usadas[[key_base]] + 1
+      key_nuevo <- paste0(key_base, "_", claves_usadas[[key_base]])
+      entrada   <- sub(paste0("\\{", key_base, ","),
+                       paste0("{", key_nuevo, ","), entrada, fixed = TRUE)
+    } else {
+      claves_usadas[[key_base]] <- 0
+    }
+
+    entradas[i] <- entrada
+  }
+
+  # Crear la carpeta de salida si no existe
+  dir.create(dirname(archivo_bib), showWarnings = FALSE, recursive = TRUE)
+
+  # Escribir archivo .bib
+  bib_content <- paste(entradas, collapse = "\n\n")
+  writeLines(bib_content, con = archivo_bib, useBytes = FALSE)
+
+  cat("Archivo generado:", archivo_bib, "\n")
+  cat("Total entradas:  ", length(entradas), "\n")
 }
 
-# Escribir archivo .bib
-bib_content <- paste(entradas, collapse = "\n\n")
-writeLines(bib_content, con = archivo_bib, useBytes = FALSE)
 
-cat("Archivo generado:", archivo_bib, "\n")
-cat("Total entradas:  ", length(entradas), "\n")
+# ==== EJECUCIÓN ==============================================================
+
+generar_bib(archivo_csv, archivo_bib)
+
+# Proyectos con IR externo y co-investigadores/as FACSO
+generar_bib(archivo_csv_coi, archivo_bib_coi, ir_externo = TRUE)

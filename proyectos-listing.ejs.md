@@ -37,7 +37,7 @@
     <span class="sort-indicator"></span>
   </button>
   <button type="button" class="proyecto-header-col sort-button" data-sort-target="author">
-    Investigador/a Responsable
+    <%= items.length && items[0].ir_externo ? "Investigador/a FACSO" : "Investigador/a Responsable" %>
     <span class="sort-indicator"></span>
   </button>
   <button type="button" class="proyecto-header-col sort-button" data-sort-target="title">
@@ -94,6 +94,13 @@
     <div class="proyecto-meta">
       <span class="meta-label">Co-investigadores FACSO:</span>
       <span class="listing-coinvestigadores"><%= item.coinvestigadores %></span>
+    </div>
+    <% } %>
+
+    <% if (item.investigador_responsable) { %>
+    <div class="proyecto-meta">
+      <span class="meta-label">Investigador/a Responsable:</span>
+      <span class="listing-coinvestigadores"><%= item.investigador_responsable %></span>
     </div>
     <% } %>
 

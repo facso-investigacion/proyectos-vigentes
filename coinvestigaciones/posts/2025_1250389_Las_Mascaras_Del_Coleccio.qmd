@@ -1,0 +1,18 @@
+---
+title: "Las Mascaras Del Coleccionismo: Mercado, Prestigio Y Exhibicion De Objetos Precolombinos En Chile Durante Los Siglos Xx Y Xxi"
+date: "2025-01-01"
+author: "Daniel Quiroz"
+departamento: "Antropología"
+investigador_responsable: "Benjamin Ballester Riesco"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250389"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/f73398da69a7f4e41de7aa46c0c2cf75"
+about:
+  template: marquee
+---

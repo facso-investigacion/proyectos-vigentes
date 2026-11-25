@@ -11,6 +11,7 @@ codigo_proyecto: "3240198"
 fecha_inicio: "2024"
 fecha_termino: "2027"
 duracion: "36 meses"
+orden: "f1c4"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/43495ed5c4c3619568b30208e15ad9d2"
 about:
   template: marquee

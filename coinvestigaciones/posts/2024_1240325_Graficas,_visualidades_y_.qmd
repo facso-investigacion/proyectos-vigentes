@@ -1,0 +1,20 @@
+---
+title: "Graficas, visualidades y estallido social en chile: una aproximación a las iconografías y sus discursividades"
+date: "2024-01-01"
+author: "Bernardo Amigo"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-15"
+departamento: "Sociología"
+investigador_responsable: "Enrique Vergara Leyton"
+categories: ["Fondecyt Regular"]
+keywords: ["GRAFICA ICONOGRAFIA IMAGINARIOS"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240325"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/c12dafe12cb9d86fc57a20186205c5d3"
+about:
+  template: marquee
+---

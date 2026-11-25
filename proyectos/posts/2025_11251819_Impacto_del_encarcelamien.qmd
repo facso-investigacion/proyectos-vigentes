@@ -11,6 +11,7 @@ codigo_proyecto: "11251819"
 fecha_inicio: "2025"
 fecha_termino: "2028"
 duracion: "36 meses"
+orden: "f1c3"
 url_abstract: "https://post.conicyt.cl/frontend.php/version/665549b1d3a42ba011ac8e04/download/adjuntos?archivo=[338612ad-ee6b-4c9a-b089-ca5c891db31c]Resumen.pdf"
 about:
   template: marquee

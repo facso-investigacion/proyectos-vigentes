@@ -11,6 +11,7 @@ codigo_proyecto: "ECOS240011"
 fecha_inicio: "2025"
 fecha_termino: "2028"
 duracion: "36 meses"
+orden: "f1c8"
 about:
   template: marquee
 ---

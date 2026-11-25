@@ -11,6 +11,7 @@ codigo_proyecto: "1240805"
 fecha_inicio: "2024"
 fecha_termino: "2028"
 duracion: "48 meses"
+orden: "f1c2"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/a613e80ae824379aeabde61ee0f70edf"
 about:
   template: marquee

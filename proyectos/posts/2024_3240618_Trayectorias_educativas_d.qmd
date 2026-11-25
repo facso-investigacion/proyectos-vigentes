@@ -11,6 +11,7 @@ codigo_proyecto: "3240618"
 fecha_inicio: "2024"
 fecha_termino: "2027"
 duracion: "36 meses"
+orden: "f1c4"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/106949462bf7e5edb7dffd4707e86254"
 about:
   template: marquee

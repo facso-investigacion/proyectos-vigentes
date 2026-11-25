@@ -1,0 +1,48 @@
+---
+title: "Coinvestigaciones Vigentes"
+listing:
+  id: coinvestigaciones-list
+  contents: "coinvestigaciones/posts/*.qmd"
+  template: proyectos-listing.ejs.md
+  page-size: 9999
+  # Año de inicio > año de término > fuente y concurso (ver clave_orden en proyectos2quarto.R) > investigador/a
+  sort:
+    - "fecha_inicio desc"
+    - "fecha_termino desc"
+    - "orden"
+    - "author"
+  fields:
+    - title
+    - author
+    - fecha_inicio
+    - fecha_termino
+    - concurso
+    - departamento
+    - investigador_responsable
+    - url_abstract
+  field-display-names:
+    title: "Título"
+    author: "Investigador/a FACSO"
+    fecha_inicio: "Año inicio"
+    fecha_termino: "Año término"
+    concurso: "Concurso"
+    departamento: "Departamento"
+    investigador_responsable: "Investigador/a responsable"
+shortcodes:
+  - ultima-actualizacion.lua
+format:
+  html:
+    css: proyectos-listing.css
+    include-after-body:
+      text: |
+        <script src="proyectos-sort.js"></script>
+---
+
+En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo cuyo Investigador/a Responsable o Director/a es externo a la Facultad de Ciencias Sociales y que tienen como co-investigador/a a un académico/a de la Facultad. Se pueden aplicar filtros por Año de inicio, Concurso y Departamento del investigador/a FACSO. Para los proyectos con IR de la Facultad, puede visitar la [página principal](index.qmd).
+
+::: {#coinvestigaciones-list}
+:::
+
+::: {.actualizacion-datos}
+Última actualización de los datos: {{< ultima-actualizacion >}}
+:::

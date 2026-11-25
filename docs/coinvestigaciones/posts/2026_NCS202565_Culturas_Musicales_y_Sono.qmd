@@ -1,0 +1,17 @@
+---
+title: "Culturas Musicales y Sonoras"
+date: "2025-01-01"
+author: "Carla Maria Pinochet Cobos"
+departamento: "Antropología"
+investigador_responsable: "Christian Spencer Espinosa"
+categories: ["Núcleos Milenio"]
+concurso: "Núcleo Milenio En Ciencias Sociales"
+codigo_proyecto: "NCS2025\_65"
+fecha_inicio: "2025"
+fecha_termino: "2028"
+duracion: "36 meses"
+ir_externo: "true"
+orden: "f1c1"
+about:
+  template: marquee
+---

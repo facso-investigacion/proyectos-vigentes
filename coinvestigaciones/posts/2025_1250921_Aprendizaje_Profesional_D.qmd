@@ -1,0 +1,18 @@
+---
+title: "Aprendizaje Profesional De Equipos Pedagogicos En Educacion Parvularia: Hacia El Fortalecimiento Colaborativo Y Situado De La Practica Directiva Y Docente Desde La Investigacion Basada En Diseno"
+date: "2025-01-01"
+author: "Daniela Alejandra Figueroa Moya"
+departamento: "Educación"
+investigador_responsable: "Paula Guerra Zamora"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1250921"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/f56964e69968bfdd2a7c855ac5b4dd73"
+about:
+  template: marquee
+---

@@ -18,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
     return el.textContent.trim();
   }
 
+  // Orden alfabético en español: ignora tildes y mayúsculas
+  var collator = new Intl.Collator('es', { sensitivity: 'base', numeric: true });
+
+  // Quita signos iniciales (¿, ", «...) para que no afecten el orden
+  function claveTexto(texto) {
+    return texto.replace(/^[^\p{L}\p{N}]+/u, '');
+  }
+
   // ============================================================
   // SORT
   // ============================================================
@@ -28,16 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
     if (cards.length === 0) return;
 
     cards.sort(function(a, b) {
-      var va = getFieldValue(a, target).toLowerCase();
-      var vb = getFieldValue(b, target).toLowerCase();
-      var na = parseFloat(va);
-      var nb = parseFloat(vb);
-      if (!isNaN(na) && !isNaN(nb)) {
-        return dir === 'asc' ? na - nb : nb - na;
-      }
-      if (va < vb) return dir === 'asc' ? -1 : 1;
-      if (va > vb) return dir === 'asc' ?  1 : -1;
-      return 0;
+      var cmp = collator.compare(claveTexto(getFieldValue(a, target)), claveTexto(getFieldValue(b, target)));
+      if (cmp !== 0) return dir === 'asc' ? cmp : -cmp;
+      // Empates: se conserva el orden original (término, fuente, concurso, investigador/a)
+      return a.dataset.ordenInicial - b.dataset.ordenInicial;
     });
     cards.forEach(function(c) { grid.appendChild(c); });
   }
@@ -47,7 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (sortState.target === target) {
       newDir = sortState.dir === 'desc' ? 'asc' : 'desc';
     } else {
-      newDir = 'desc';
+      // Textos parten de la A; el año, del más reciente
+      newDir = target === 'fecha_inicio' ? 'desc' : 'asc';
     }
     sortState = { target: target, dir: newDir };
     sortCards(target, newDir);
@@ -70,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var val = getFieldValue(card, field);
       if (val) values[val] = true;
     });
-    return Object.keys(values).sort();
+    return Object.keys(values).sort(collator.compare);
   }
 
   function buildDropdown(dropdown) {
@@ -195,6 +198,10 @@ document.addEventListener('DOMContentLoaded', function() {
   function initAll() {
     var buttons = document.querySelectorAll('.sort-button');
     if (buttons.length === 0) return false;
+
+    document.querySelectorAll('.proyecto-card').forEach(function(card, i) {
+      if (!card.dataset.ordenInicial) card.dataset.ordenInicial = i;
+    });
 
     buttons.forEach(function(btn) {
       if (btn.dataset.sortAttached === 'true') return;

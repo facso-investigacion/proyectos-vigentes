@@ -11,6 +11,7 @@ codigo_proyecto: "3250151"
 fecha_inicio: "2025"
 fecha_termino: "2028"
 duracion: "36 meses"
+orden: "f1c4"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b0736c2872566ea98941497f09a910f0"
 about:
   template: marquee

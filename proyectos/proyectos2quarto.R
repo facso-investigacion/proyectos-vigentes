@@ -20,6 +20,10 @@ archivo_bib <- "proyectos/proyectos.bib"          # Ruta al .bib generado por ge
 carpeta_out <- "proyectos/posts"        # Carpeta donde se crearán los .qmd
 overwrite   <-  TRUE                  # TRUE para sobreescribir archivos existentes
 
+# Coinvestigaciones (IR externo)
+archivo_bib_coi <- "coinvestigaciones/coinvestigaciones.bib"
+carpeta_out_coi <- "coinvestigaciones/posts"
+
 # =============================================================================
 
 
@@ -64,7 +68,7 @@ buscar_url_perfil <- function(nombre) {
 
 # ==== FUNCIÓN PRINCIPAL ======================================================
 
-proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
+proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE, ir_externo = FALSE) {
   
   # Crear carpeta de salida si no existe
   if (dir.exists(outfold)) {
@@ -123,7 +127,7 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
   needed_cols <- c(
     "title", "author", "editor", "year", "type", "number",
     "date-start", "date-end", "duration", "howpublished",
-    "keywords", "url", "institution", "bibtype"
+    "keywords", "url", "institution", "funder", "bibtype"
   )
   for (col in needed_cols) {
     if (!col %in% names(mypubs)) mypubs[[col]] <- NA_character_
@@ -148,7 +152,7 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
   
   # Reemplazar NAs visibles por cadena vacía en campos de texto
   for (col in c("editor", "url", "keywords", "howpublished", "duration", "institution",
-                "date-start", "date-end", "type", "number")) {
+                "date-start", "date-end", "type", "number", "funder")) {
     mypubs[[col]] <- replace_na(as.character(mypubs[[col]]), "")
   }
   
@@ -164,6 +168,28 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
         str_detect(tolower(type), "fondap")                ~ "FONDAP",
         str_detect(tolower(type), "millenium|milenio")     ~ "Núcleos Milenio",
         TRUE ~ "Proyecto de Investigación"
+      )
+    )
+  
+  # Desempate entre proyectos con igual año de inicio y término (ascendente):
+  #   f = fuente:   0 Jean Monnet, 1 ANID, 2 otras externas, 3 Universidad de Chile (VID)
+  #   c = concurso: según jerarquia_concursos
+  jerarquia_concursos <- c(
+    "Núcleos Milenio", "Fondecyt Regular", "Fondecyt Iniciación", "Fondecyt Postdoctorado",
+    "Anillos", "FPCI", "FONDAP", "Proyecto de Investigación"
+  )
+  
+  mypubs <- mypubs %>%
+    mutate(
+      orden_fuente = case_when(
+        str_detect(tolower(type), "jean monnet") ~ 0L,
+        funder == "ANID"                 ~ 1L,
+        funder == "Universidad de Chile" ~ 3L,
+        TRUE                             ~ 2L
+      ),
+      clave_orden = sprintf(
+        "f%dc%d",
+        orden_fuente, match(categories, jerarquia_concursos)
       )
     )
   
@@ -207,6 +233,8 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
     # Investigador responsable (campo author)
     # author_inv   <- invert_author_names(x[["author"]])
     auth_clean   <- stri_trans_general(x[["author"]], "latin-ascii")
+    # En coinvestigaciones se conservan las tildes de los nombres sociales
+    if (ir_externo) auth_clean <- x[["author"]]
     auth_vec     <- trimws(unlist(strsplit(auth_clean, " and ", fixed = TRUE)))
     auth_display <- if (length(auth_vec) <= 1) {
       auth_vec
@@ -228,9 +256,10 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
     if (!is.na(x[["institution"]]) && x[["institution"]] != "")
       write(paste0('departamento: "' , x[["institution"]], '"'), fileConn, append = TRUE)
     
-    # Co-investigadores (campo editor)
+    # Co-investigadores (campo editor). Si el IR es externo, editor es el IR
     if (!is.na(x[["editor"]]) && x[["editor"]] != "") {
-      write(paste0('coinvestigadores: "', x[["editor"]], '"'), fileConn, append = TRUE)
+      campo_editor <- if (ir_externo) "investigador_responsable" else "coinvestigadores"
+      write(paste0(campo_editor, ': "', x[["editor"]], '"'), fileConn, append = TRUE)
     }
     
     # Categorías basadas en concurso
@@ -258,6 +287,13 @@ proyectos_2_quarto <- function(bibfile, outfold, overwrite = FALSE) {
     
     if (!is.na(x[["duration"]]) && x[["duration"]] != "")
       write(paste0('duracion: "', x[["duration"]], '"'), fileConn, append = TRUE)
+    
+    # IR externo: author y departamento corresponden a investigadores/as FACSO
+    if (ir_externo)
+      write('ir_externo: "true"', fileConn, append = TRUE)
+    
+    # Clave para ordenar el listado
+    write(paste0('orden: "', x[["clave_orden"]], '"'), fileConn, append = TRUE)
     
     # Monto
     if (!is.na(x[["howpublished"]]) && x[["howpublished"]] != "")
@@ -363,4 +399,12 @@ proyectos_2_quarto(
   bibfile  = archivo_bib,
   outfold  = carpeta_out,
   overwrite = overwrite
+)
+
+# Proyectos con IR externo y co-investigadores/as FACSO
+proyectos_2_quarto(
+  bibfile    = archivo_bib_coi,
+  outfold    = carpeta_out_coi,
+  overwrite  = overwrite,
+  ir_externo = TRUE
 )

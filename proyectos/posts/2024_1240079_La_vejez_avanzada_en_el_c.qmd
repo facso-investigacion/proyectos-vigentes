@@ -11,6 +11,7 @@ codigo_proyecto: "1240079"
 fecha_inicio: "2024"
 fecha_termino: "2027"
 duracion: "36 meses"
+orden: "f1c2"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/e4b6506127dcfd4f862dfbb6afaa9e78"
 about:
   template: marquee

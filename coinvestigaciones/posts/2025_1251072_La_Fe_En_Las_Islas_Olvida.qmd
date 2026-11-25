@@ -1,0 +1,19 @@
+---
+title: "La Fe En Las Islas Olvidadas: Transformaciones Socioculturales De Las Practicas Religiosas Evangelica En Islas De Las Comunas De Puerto Montt Y Calbuco Desde 1930 Hasta La Actualidad."
+date: "2025-01-01"
+author: "Francisco Araos"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-111"
+departamento: "Antropología"
+investigador_responsable: "Miguel Mansilla Aguero"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251072"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/b6d58395af829f09d0ade66a6344e3b7"
+about:
+  template: marquee
+---

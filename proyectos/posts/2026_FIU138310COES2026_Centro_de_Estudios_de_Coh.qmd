@@ -11,6 +11,7 @@ codigo_proyecto: "FIU-138310/COES-2026"
 fecha_inicio: "2026"
 fecha_termino: "2027"
 duracion: "21 meses"
+orden: "f3c8"
 about:
   template: marquee
 ---

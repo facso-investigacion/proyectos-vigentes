@@ -10,6 +10,7 @@ codigo_proyecto: "DIT2501"
 fecha_inicio: "2026"
 fecha_termino: "2027"
 duracion: "24 meses"
+orden: "f3c8"
 about:
   template: marquee
 ---

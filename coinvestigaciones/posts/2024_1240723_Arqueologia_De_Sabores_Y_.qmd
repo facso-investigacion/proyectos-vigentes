@@ -1,0 +1,19 @@
+---
+title: "Arqueologia De Sabores Y Saberes Andinos Post-Incaicos Introduccion Arqueobotanica Al Mundo Indigena Colonial Desde Tarapaca."
+date: "2024-01-01"
+author: "Mauricio Uribe"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-21"
+departamento: "Antropología"
+investigador_responsable: "Alejandra Isabel Vidal Elgueta"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240723"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/06ed2308f1b1c221ba8feed0fd65ead4"
+about:
+  template: marquee
+---

@@ -1,0 +1,19 @@
+---
+title: "SMARTDIAGO: Sistema de Apoyo Inteligente para el Diagnostico Remoto de Enfermedades Musculoesqueléticas"
+date: "2025-01-01"
+author: "Caterine Galaz"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-65"
+departamento: "Trabajo Social"
+investigador_responsable: "Mauricio Cerda Villablanca"
+categories: ["Proyecto de Investigación"]
+keywords: ["ENFERMEDADES MUSCULOESQUEL| INTELIGENCIA ARTIFICIAL| TELEMEDICINA| ENFERMEDADES MUSCULOESQUEL| INTELIGENCIA ARTIFICIAL| TELEMEDICINA"]
+concurso: "Idea I+D"
+codigo_proyecto: "IT25I0174"
+fecha_inicio: "2025"
+fecha_termino: "2027"
+duracion: "24 meses"
+ir_externo: "true"
+orden: "f1c8"
+about:
+  template: marquee
+---

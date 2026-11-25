@@ -1,0 +1,19 @@
+---
+title: "Jóvenes, discursos neoconservadores y transmisión de memorias. El caso chileno"
+date: "2026-01-01"
+author: "María José Reyes"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-90"
+departamento: "Psicología"
+investigador_responsable: "Maria Cruz Contreras"
+categories: ["Fondecyt Regular"]
+keywords: ["CONTRAMOVIMIENTO NEOCONSERVADUR EN CHILE| SUBJETIVIDAD POLITICA EN JOVENES SIN PARTICIPACION INSTITUCIONAL| SOCIALIZACION POLITICA DESDE MEMORIAS SOCIALES"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1260868"
+fecha_inicio: "2026"
+fecha_termino: "2030"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+about:
+  template: marquee
+---

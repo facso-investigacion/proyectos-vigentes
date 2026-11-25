@@ -1,0 +1,18 @@
+---
+title: "La Revolucion Estancada: Articulaciones Subjetivas Entre El Trabajo Productivo Y El Trabajo De Cuidados De Trabajadores Hombres En Chile"
+date: "2025-01-01"
+author: "Julieta Palma"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-115"
+departamento: "Sociología"
+investigador_responsable: "Alvaro Soto Roy"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1251007"
+fecha_inicio: "2025"
+fecha_termino: "2029"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+about:
+  template: marquee
+---

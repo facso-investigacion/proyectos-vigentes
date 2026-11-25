@@ -1,0 +1,19 @@
+---
+title: "Color Y Poder En Los Andes Entre Los Siglos Xv Y Xvi. Cromatismo Mineral Del Imperio Inca."
+date: "2024-01-01"
+author: "Andrés Troncoso"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-31"
+departamento: "Antropología"
+investigador_responsable: "Marcela Alejandra Sepulveda Retamal"
+categories: ["Fondecyt Regular"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1240764"
+fecha_inicio: "2024"
+fecha_termino: "2028"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/51185da385fa67b1ffd213b34f27b03b"
+about:
+  template: marquee
+---

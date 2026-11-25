@@ -12,6 +12,7 @@ codigo_proyecto: "1251388"
 fecha_inicio: "2025"
 fecha_termino: "2029"
 duracion: "48 meses"
+orden: "f1c2"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/4ecbfac6affe0598fcc08098a1d00920"
 about:
   template: marquee

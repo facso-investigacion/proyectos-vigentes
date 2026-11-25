@@ -1,0 +1,18 @@
+---
+title: "Política Pública de Cultura como Resistencia Democrática"
+date: "2027-01-01"
+author: "Marisol Facuse"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-28"
+departamento: "Sociología"
+investigador_responsable: "Daniel Conte"
+categories: ["Proyecto de Investigación"]
+concurso: "Prosul Pepe Mujica"
+codigo_proyecto: "445033/2026-6"
+fecha_inicio: "2027"
+fecha_termino: "2029"
+duracion: "24 meses"
+ir_externo: "true"
+orden: "f2c8"
+about:
+  template: marquee
+---

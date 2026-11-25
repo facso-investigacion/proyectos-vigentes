@@ -1,0 +1,19 @@
+---
+title: "Diseñar para la amistad. Una metodología para el diseño de propuestas que contribuyan a las amistades de las personas mayores"
+date: "2026-01-01"
+author: "Javiera Rosell"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-112"
+departamento: "Psicología"
+investigador_responsable: "Ruben Jacob Dazarola"
+categories: ["Fondecyt Regular"]
+keywords: ["DISENO DE PRODUCTOS - SERVICIOS Y EXPERIENCIAS| PERSONAS MAYORES| AMISTAD Y BIENESTAR"]
+concurso: "Fondecyt Regular"
+codigo_proyecto: "1260232"
+fecha_inicio: "2026"
+fecha_termino: "2030"
+duracion: "48 meses"
+ir_externo: "true"
+orden: "f1c2"
+about:
+  template: marquee
+---

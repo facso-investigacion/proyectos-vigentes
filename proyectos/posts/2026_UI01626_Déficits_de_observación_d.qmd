@@ -10,6 +10,7 @@ codigo_proyecto: "UI-016/26"
 fecha_inicio: "2026"
 fecha_termino: "2028"
 duracion: "24 meses"
+orden: "f3c8"
 about:
   template: marquee
 ---

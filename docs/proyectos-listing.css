@@ -397,3 +397,17 @@
   color: #f25e63;
   border-bottom-style: solid;
 }
+
+/* --- Footer: última actualización de los datos -------------- */
+.actualizacion-datos {
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.82rem;
+  color: #6c757d;
+  text-align: right;
+}
+
+.actualizacion-datos p {
+  margin-bottom: 0;
+}

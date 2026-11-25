@@ -1,0 +1,18 @@
+---
+title: "Núcleo Milenio Tecnociencia Ciudadana para la transformación socioambiental (CITEC)."
+date: "2024-01-01"
+author: "Francisco Araos"
+author_url: "https://colaboratoriocienciassociales.uchile.cl/investigadores-ficha-111"
+departamento: "Antropología"
+investigador_responsable: "Sebastian Ureta Icaza"
+categories: ["Núcleos Milenio"]
+concurso: "Núcleo Milenio En Ciencias Sociales"
+codigo_proyecto: "NCS2024\_006"
+fecha_inicio: "2024"
+fecha_termino: "2027"
+duracion: "36 meses"
+ir_externo: "true"
+orden: "f1c1"
+about:
+  template: marquee
+---

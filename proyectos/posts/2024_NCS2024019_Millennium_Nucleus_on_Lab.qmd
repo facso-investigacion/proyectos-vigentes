@@ -11,6 +11,7 @@ codigo_proyecto: "NCS2024\_019"
 fecha_inicio: "2024"
 fecha_termino: "2027"
 duracion: "36 meses"
+orden: "f1c1"
 about:
   template: marquee
 ---

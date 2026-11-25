@@ -9,6 +9,7 @@ codigo_proyecto: "1231651"
 fecha_inicio: "2023"
 fecha_termino: "2027"
 duracion: "48 meses"
+orden: "f1c2"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/7e068665d21c3114b7007fa44e046626"
 about:
   template: marquee

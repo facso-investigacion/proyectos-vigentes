@@ -10,6 +10,7 @@ codigo_proyecto: "11240611"
 fecha_inicio: "2024"
 fecha_termino: "2027"
 duracion: "36 meses"
+orden: "f1c3"
 url_abstract: "https://post.anid.cl/frontend.php/es/postulacion/descargar/hash/480fa7ce2fa37dfcf4672a474b2a975e"
 about:
   template: marquee

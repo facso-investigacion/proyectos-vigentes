@@ -5,7 +5,12 @@ listing:
   contents: "proyectos/posts/*.qmd"
   template: proyectos-listing.ejs.md
   page-size: 9999
-  sort: "fecha_inicio desc"
+  # Año de inicio > año de término > fuente y concurso (ver clave_orden en proyectos2quarto.R) > investigador/a
+  sort:
+    - "fecha_inicio desc"
+    - "fecha_termino desc"
+    - "orden"
+    - "author"
   fields:
     - title
     - author
@@ -33,7 +38,7 @@ format:
         <script src="proyectos-sort.js"></script>
 ---
 
-En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. Se pueden aplicar filtros por Año de adjudicación, Concurso y Departamento del IR. 
+En la lista se incluyen los proyectos de investigación vigentes con financiamiento externo que tengan como Investigador/a Responsable o Director/a a un académico/a de la Facultad de Ciencias Sociales. Se pueden aplicar filtros por Año de inicio, Concurso y Departamento del IR. Para concursos con IR externo y coinvestigadores FACSO, puede visitar la siguiente [página](coinvestigaciones.qmd).
 
 ::: {#proyectos-list}
 :::
